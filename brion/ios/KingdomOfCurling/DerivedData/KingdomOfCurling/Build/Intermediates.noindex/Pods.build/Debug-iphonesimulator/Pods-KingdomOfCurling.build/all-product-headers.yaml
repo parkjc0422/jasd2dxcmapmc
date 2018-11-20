@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/jucherpark/workspace/external_project/brion/ios/KingdomOfCurling/DerivedData/KingdomOfCurling/Build/Products/Debug-iphonesimulator/Pods_KingdomOfCurling.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-KingdomOfCurling-umbrella.h",
+          'external-contents': "/Users/jucherpark/workspace/external_project/brion/ios/KingdomOfCurling/Pods/Target Support Files/Pods-KingdomOfCurling/Pods-KingdomOfCurling-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_KingdomOfCurling-Swift.h",
+          'external-contents': "/Users/jucherpark/workspace/external_project/brion/ios/KingdomOfCurling/DerivedData/KingdomOfCurling/Build/Products/Debug-iphonesimulator/Pods_KingdomOfCurling.framework/Headers/Pods_KingdomOfCurling-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/jucherpark/workspace/external_project/brion/ios/KingdomOfCurling/DerivedData/KingdomOfCurling/Build/Products/Debug-iphonesimulator/Pods_KingdomOfCurling.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/jucherpark/workspace/external_project/brion/ios/KingdomOfCurling/DerivedData/KingdomOfCurling/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-KingdomOfCurling.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

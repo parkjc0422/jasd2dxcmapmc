@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "81c5fb63bf47517368ff9a4f0e6a1ff5"
+build_time: [1541928151, 823498000]
+inputs:
+  "/Users/jucherpark/workspace/external_project/brion/ios/KingdomOfCurling/KingdomOfCurling/ViewController.swift": [1541917524, 0]
+  "/Users/jucherpark/workspace/external_project/brion/ios/KingdomOfCurling/KingdomOfCurling/AppDelegate.swift": [1541917524, 0]

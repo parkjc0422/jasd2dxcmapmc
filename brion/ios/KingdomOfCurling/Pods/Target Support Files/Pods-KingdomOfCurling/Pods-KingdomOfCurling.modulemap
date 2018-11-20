@@ -1,0 +1,6 @@
+framework module Pods_KingdomOfCurling {
+  umbrella header "Pods-KingdomOfCurling-umbrella.h"
+
+  export *
+  module * { export * }
+}
