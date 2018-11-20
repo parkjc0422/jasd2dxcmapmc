@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#d9cac0</color>
+    <color name="colorPrimaryDark">#d9cac0</color>
     <color name="colorAccent">#FF4081</color>
+
+
+    <color name="navi_select_color">#a67057</color>
+    <color name="navi_nor_color">#a89b97</color>
+
+    <color name="top_title">#523730</color>
+    <color name="white">#fff</color>
+
+    <color name="curlingFoc">#3e2b26</color>
+    <color name="curlingNor">#7d574d</color>
+
+    <color name="gameFoc">#4c372e</color>
+    <color name="gameNor">#996f5c</color>
+
+    <color name="reserveFoc">#261815</color>
+    <color name="reserveNor">#4c312a</color>
+
+    <color name="main_bottom_bg">#d9cac0</color>
+
+
+    <color name="btn_common_sel">#61423b</color>
+    <color name="btn_common_nor">#3b3534</color>
+    <color name="btn_common_dim">#8e8480</color>
+
+
+    <color name="tv_common_foc">#fdf8f5</color>
+    <color name="tv_common_foc_outline">#99857e</color>
+    <color name="tv_common_nor">#fdf8f5</color>
+    <color name="tv_common_dim">#efe6e1</color>
 </resources>

@@ -3,4 +3,33 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Menu -->
+    <string name="navi_1">홈</string>
+    <string name="navi_2">컬링대관</string>
+    <string name="navi_3">카메라</string>
+    <string name="navi_4">관광정보</string>
+    <string name="navi_5">쿠폰샵</string>
+
+
+    <string name="main_menu_1">컬링장 예약</string>
+    <string name="main_menu_2">컬링포인트 체험</string>
+    <string name="main_menu_3">내쿠폰 보기</string>
+    <string name="main_menu_4">컬링 게임</string>
+
+    <string name="main_ppl_loading">.....</string>
+    <string name="main_ppl_sub_loading">....................</string>
+
+    <string name="reservation">예약하기</string>
+    <string name="reserve_schedule_title">예약 일정</string>
+    <string name="reserve_schedule_hint">일정 선택</string>
+    <string name="start_time_title">시작 시간</string>
+    <string name="start_time_hint">일정 선택</string>
+    <string name="hope_time_title">희망 사용 시간</string>
+    <string name="hope_time">0 시간</string>
+    <string name="reserve_man_title">예약 인원</string>
+    <string name="reserve_man">0 명</string>
+    <string name="reserve_provision_1">개인장비가 있습니다.</string>
+    <string name="reserve_provision_2">다른 체크 항목 표시</string>
 </resources>

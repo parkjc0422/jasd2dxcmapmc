@@ -2,90 +2,156 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.curling.kingdomofcurling.ReservationFragment">
-
-    <LinearLayout
-        android:background="@color/colorAccent"
-        android:padding="10dp"
-        android:orientation="vertical"
+    tools:context="com.curling.kingdomofcurling.ui.ReservationFragment">
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-        <TextView
-            android:text="asdasd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:text="asdasd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:text="asdasd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
         <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <Button
-                android:layout_weight="1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
-
-
-
-        <TextView
-            android:text="asdasd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <Button
-                android:layout_weight="1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
-        <LinearLayout
+            android:background="@color/main_bottom_bg"
+            android:paddingTop="22dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:orientation="vertical"
-            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="0dp">
+            android:layout_height="match_parent">
 
-            <CheckBox
-                android:text="asdasd"
+            <TextView
+                android:fontFamily="sans-serif"
+                android:textSize="13dp"
+                android:textStyle="normal"
+                android:text="@string/reserve_schedule_hint"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
-            <CheckBox
-                android:text="asdasd"
+            <Button
+                android:layout_marginTop="2dp"
+                android:background="@drawable/textview_common"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif"
+                android:textSize="13dp"
+                android:textStyle="normal"
+                android:text="@string/start_time_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_marginTop="2dp"
+                android:background="@drawable/textview_common"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif"
+                android:textSize="13dp"
+                android:textStyle="normal"
+                android:text="@string/hope_time_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+                <TextView
+                    android:background="@drawable/textview_common"
+                    android:layout_width="167dp"
+                    android:layout_height="match_parent" />
+                <Button
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:pointerIcon="arrow"
+                    android:background="@drawable/btn_left_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp" />
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_right_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif"
+                android:textSize="13dp"
+                android:textStyle="normal"
+                android:text="@string/reserve_man_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+                <TextView
+                    android:background="@drawable/textview_common"
+                    android:layout_width="167dp"
+                    android:layout_height="match_parent" />
+                <Button
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:pointerIcon="arrow"
+                    android:background="@drawable/btn_left_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp" />
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_right_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <CheckBox
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:button="@drawable/btn_check_box_theme"
+                    android:paddingLeft="8dp"
+                    android:text="@string/reserve_provision_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <CheckBox
+                    android:layout_marginTop="9dp"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:button="@drawable/btn_check_box_theme"
+                    android:paddingLeft="8dp"
+                    android:text="@string/reserve_provision_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+            <Button
+                android:layout_marginBottom="22dp"
+                android:layout_marginTop="34dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:text="@string/reservation"
+                android:background="@drawable/btn_common_theme"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </LinearLayout>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
+    </ScrollView>
+
 
 </FrameLayout>

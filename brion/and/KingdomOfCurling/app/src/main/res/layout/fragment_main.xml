@@ -8,53 +8,148 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <ImageView
-            android:background="@color/colorAccent"
-            android:layout_width="match_parent"
-            android:layout_height="100dp" />
 
         <LinearLayout
+            android:orientation="vertical"
+            android:background="@color/main_bottom_bg"
+            android:gravity="center"
             android:layout_weight="1"
-            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="0dp">
+            <TextView
+                android:fontFamily="sans-serif"
+                android:textSize="33dp"
+                android:text="@string/main_ppl_loading"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:fontFamily="sans-serif"
+                android:text="@string/main_ppl_sub_loading"
+                android:layout_marginTop="5dp"
+                android:textSize="13dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/main_bottom_bg"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
             <LinearLayout
+                android:layout_marginRight="5dp"
                 android:layout_weight="1"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-                <ImageView
-                    android:background="@color/colorPrimary"
-                    android:layout_margin="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp" />
 
-                <ImageView
-                    android:background="@color/colorPrimaryDark"
-                    android:layout_weight="1"
-                    android:layout_margin="10dp"
+                <LinearLayout
+                    android:id="@+id/main_menu_reserve"
+                    android:orientation="vertical"
+                    android:background="@drawable/btn_ic_reserv_theme"
+                    android:gravity="center"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp" />
+                    android:layout_height="202dp">
+                    <ImageView
+                        android:background="@drawable/ic_main_reservation"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp" />
+                    <TextView
+                        android:fontFamily="sans-serif"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/main_menu_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/main_menu_point"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:background="@drawable/btn_ic_curling_theme"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp">
+
+                    <ImageView
+                        android:background="@drawable/ic_main_point"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp" />
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="8dp"
+                        android:text="@string/main_menu_2"
+                        android:fontFamily="sans-serif"
+                        android:textStyle="bold"
+                        android:textSize="13dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-                <ImageView
-                    android:background="@color/colorPrimary"
-                    android:layout_weight="1"
-                    android:layout_margin="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp" />
 
-                <ImageView
-                    android:background="@color/colorPrimaryDark"
-                    android:layout_margin="10dp"
+                <LinearLayout
+                    android:id="@+id/main_menu_coupon"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:background="@drawable/btn_ic_reserv_theme"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp" />
+                    android:layout_height="51dp">
+
+                    <ImageView
+                        android:background="@drawable/ic_main_coupon"
+                        android:layout_width="43dp"
+                        android:layout_height="23dp" />
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="8dp"
+                        android:text="@string/main_menu_3"
+                        android:fontFamily="sans-serif"
+                        android:textStyle="bold"
+                        android:textSize="13dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/main_menu_curling_game"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/btn_ic_game_theme"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp">
+                    <ImageView
+                        android:background="@drawable/ic_main_game"
+                        android:layout_width="32dp"
+                        android:layout_height="29dp" />
+                    <TextView
+                        android:fontFamily="sans-serif"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/main_menu_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
 
 
             </LinearLayout>
