@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#d9cac0</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="colorLightGray">#AAA</color>
 
     <color name="navi_select_color">#a67057</color>
     <color name="navi_nor_color">#a89b97</color>
@@ -27,9 +28,12 @@
     <color name="btn_common_nor">#3b3534</color>
     <color name="btn_common_dim">#8e8480</color>
 
+    <color name="common_bound_line">#e5e5e5</color>
 
     <color name="tv_common_foc">#fdf8f5</color>
     <color name="tv_common_foc_outline">#99857e</color>
     <color name="tv_common_nor">#fdf8f5</color>
     <color name="tv_common_dim">#efe6e1</color>
+
+
 </resources>

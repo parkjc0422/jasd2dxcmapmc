@@ -8,6 +8,8 @@
         android:minSdkVersion="16"
         android:targetSdkVersion="26" />
 
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:debuggable="true"
@@ -17,13 +19,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.curling.kingdomofcurling.MainActivity" >
+        <activity android:name="com.curling.kingdomofcurling.ui.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.curling.kingdomofcurling.ui.CameraViewActivity" />
 
         <meta-data
             android:name="android.support.VERSION"

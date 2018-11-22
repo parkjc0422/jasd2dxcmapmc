@@ -24,12 +24,12 @@
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/color-v23_abc_btn_colored_text_material.xml.flat",
-        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/color-v23/abc_btn_colored_text_material.xml"
-    },
-    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/color-v23_abc_btn_colored_text_material.xml.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/color-v23/abc_btn_colored_text_material.xml"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable_abc_btn_default_mtrl_shape.xml.flat",
@@ -56,12 +56,12 @@
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/572b4fb31cac5599cd02e2c0e2a4d2b9/res/layout/design_text_input_password_icon.xml"
     },
     {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable_btn_bottom_info_f.png.flat",
-        "source": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/res/drawable/btn_bottom_info_f.png"
-    },
-    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable_btn_bottom_info_f.png.flat",
+        "source": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/res/drawable/btn_bottom_info_f.png"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -88,12 +88,12 @@
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/572b4fb31cac5599cd02e2c0e2a4d2b9/res/layout/design_layout_tab_icon.xml"
     },
     {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/color-v23_abc_tint_edittext.xml.flat",
-        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/color-v23/abc_tint_edittext.xml"
-    },
-    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/color-v23_abc_tint_edittext.xml.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/color-v23/abc_tint_edittext.xml"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -108,24 +108,24 @@
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",
-        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/99b661b44f7a25775d27ddd6a7c2dac1/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
     },
     {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable_abc_tab_indicator_material.xml.flat",
-        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable_abc_tab_indicator_material.xml.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable/abc_tab_indicator_material.xml"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -152,12 +152,12 @@
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_light.png"
     },
     {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -176,12 +176,12 @@
         "source": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/res/drawable/btn_title_back.png"
     },
     {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
-        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/color-v11_abc_background_cache_hint_selector_material_light.xml.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -264,16 +264,20 @@
         "source": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_title_material.xml.flat",
-        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/layout/abc_alert_dialog_title_material.xml"
-    },
-    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_design_layout_tab_text.xml.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/572b4fb31cac5599cd02e2c0e2a4d2b9/res/layout/design_layout_tab_text.xml"
     },
     {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_title_material.xml.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_design_ic_visibility_off.png.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/572b4fb31cac5599cd02e2c0e2a4d2b9/res/drawable-xxhdpi-v4/design_ic_visibility_off.png"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/mipmap-xhdpi_round_corner_progress_icon.png.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/RoundCornerProgressBar-2.0.3.aar/dba83fb907705b27a540deb8655d0c9d/res/mipmap-xhdpi/round_corner_progress_icon.png"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -320,12 +324,12 @@
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/layout/abc_screen_content_include.xml"
     },
     {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -372,12 +376,12 @@
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
     },
     {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
-    },
-    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-v21_design_password_eye.xml.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/572b4fb31cac5599cd02e2c0e2a4d2b9/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -524,32 +528,32 @@
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/572b4fb31cac5599cd02e2c0e2a4d2b9/res/drawable-v21/avd_hide_password.xml"
     },
     {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_radio.xml.flat",
-        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/layout/abc_list_menu_item_radio.xml"
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png"
-    },
-    {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/anim_abc_slide_in_top.xml.flat",
-        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/anim/abc_slide_in_top.xml"
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_radio.xml.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/layout/abc_list_menu_item_radio.xml"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_design_bottom_navigation_item.xml.flat",
-        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/572b4fb31cac5599cd02e2c0e2a4d2b9/res/layout/design_bottom_navigation_item.xml"
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/anim_abc_slide_in_top.xml.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/anim/abc_slide_in_top.xml"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable_ic_main_point.png.flat",
         "source": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/res/drawable/ic_main_point.png"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_design_bottom_navigation_item.xml.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/572b4fb31cac5599cd02e2c0e2a4d2b9/res/layout/design_bottom_navigation_item.xml"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
@@ -616,12 +620,12 @@
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
     },
     {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
-        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
-    },
-    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable_btn_ic_reserv_theme.xml.flat",
         "source": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/res/drawable/btn_ic_reserv_theme.xml"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -960,12 +964,12 @@
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/572b4fb31cac5599cd02e2c0e2a4d2b9/res/drawable-v21/avd_show_password.xml"
     },
     {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_in.xml.flat",
-        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/572b4fb31cac5599cd02e2c0e2a4d2b9/res/anim-v21/design_bottom_sheet_slide_in.xml"
-    },
-    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_in.xml.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/572b4fb31cac5599cd02e2c0e2a4d2b9/res/anim-v21/design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_layout.xml.flat",
@@ -1000,12 +1004,12 @@
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
-        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable/abc_btn_radio_material.xml"
-    },
-    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_abc_action_mode_close_item_material.xml.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable/abc_btn_radio_material.xml"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
@@ -1108,6 +1112,18 @@
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_layout_text_round_corner_progress_bar.xml.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/RoundCornerProgressBar-2.0.3.aar/dba83fb907705b27a540deb8655d0c9d/res/layout/layout_text_round_corner_progress_bar.xml"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_activity_camera_view.xml.flat",
+        "source": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/res/layout/activity_camera_view.xml"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_round_corner_progress_icon.png.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/RoundCornerProgressBar-2.0.3.aar/dba83fb907705b27a540deb8655d0c9d/res/mipmap-xxhdpi/round_corner_progress_icon.png"
+    },
+    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -1196,6 +1212,10 @@
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/color/abc_secondary_text_material_light.xml"
     },
     {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/mipmap-mdpi_round_corner_progress_icon.png.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/RoundCornerProgressBar-2.0.3.aar/dba83fb907705b27a540deb8655d0c9d/res/mipmap-mdpi/round_corner_progress_icon.png"
+    },
+    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable_img_title_logo.png.flat",
         "source": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/res/drawable/img_title_logo.png"
     },
@@ -1232,12 +1252,12 @@
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/572b4fb31cac5599cd02e2c0e2a4d2b9/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/color-v23_abc_tint_seek_thumb.xml.flat",
-        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/color-v23/abc_tint_seek_thumb.xml"
-    },
-    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable_btn_check_box_theme.xml.flat",
         "source": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/res/drawable/btn_check_box_theme.xml"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/color-v23_abc_tint_seek_thumb.xml.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -1652,6 +1672,10 @@
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_layout_icon_round_corner_progress_bar.xml.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/RoundCornerProgressBar-2.0.3.aar/dba83fb907705b27a540deb8655d0c9d/res/layout/layout_icon_round_corner_progress_bar.xml"
+    },
+    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
@@ -1736,6 +1760,10 @@
         "source": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/res/drawable/btn_bottom_coupon_f.png"
     },
     {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable_round_btn.xml.flat",
+        "source": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/res/drawable/round_btn.xml"
+    },
+    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
@@ -1762,6 +1790,10 @@
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_layout_round_corner_progress_bar.xml.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/RoundCornerProgressBar-2.0.3.aar/dba83fb907705b27a540deb8655d0c9d/res/layout/layout_round_corner_progress_bar.xml"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -1826,6 +1858,10 @@
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/99b661b44f7a25775d27ddd6a7c2dac1/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/mipmap-hdpi_round_corner_progress_icon.png.flat",
+        "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/RoundCornerProgressBar-2.0.3.aar/dba83fb907705b27a540deb8655d0c9d/res/mipmap-hdpi/round_corner_progress_icon.png"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",

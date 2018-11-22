@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CameraViewActivity">
+
+    <com.curling.kingdomofcurling.ui.CameraPreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btn_bottom_info_f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <Button
+            android:elevation="1dp"
+            android:id="@+id/takePicture"
+            android:background="@drawable/round_btn"
+            android:layout_centerInParent="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <Button
+            android:id="@+id/waterMark"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [com.android.support:design:26.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/572b4fb31cac5599cd02e2c0e2a4d2b9/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/pjc/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ae725a2255e54a1f5976216648928928/AndroidManifest.xml:2:1-11:12
@@ -18,25 +18,29 @@ MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/pjc/.gradle/cach
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/98bdb5de5dee57985be2950b712bd5db/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/99b661b44f7a25775d27ddd6a7c2dac1/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/51b8c194481c42f3568ef8994abd1c65/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:5:5-64
+	android:name
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:5:22-62
 application
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:7:5-25:19
 MERGED from [com.android.support:design:26.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/572b4fb31cac5599cd02e2c0e2a4d2b9/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/572b4fb31cac5599cd02e2c0e2a4d2b9/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/AndroidManifest.xml:25:5-29:19
@@ -66,31 +70,35 @@ MERGED from [com.android.support:support-compat:26.1.0] /Users/pjc/.gradle/cache
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/51b8c194481c42f3568ef8994abd1c65/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/51b8c194481c42f3568ef8994abd1c65/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:11:9-40
-activity#com.curling.kingdomofcurling.MainActivity
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:12:9-18:20
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.curling.kingdomofcurling.ui.MainActivity
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:17:19-50
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.curling.kingdomofcurling.ui.CameraViewActivity
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:24:9-58
+	android:name
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:24:19-56
 uses-sdk
 INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml

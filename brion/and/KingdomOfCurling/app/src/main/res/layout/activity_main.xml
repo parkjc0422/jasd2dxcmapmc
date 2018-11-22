@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.curling.kingdomofcurling.MainActivity">
+    tools:context="com.curling.kingdomofcurling.ui.MainActivity">
 
     <LinearLayout
         android:gravity="center_vertical"
@@ -16,6 +16,7 @@
         android:layout_height="63dp">
 
         <ImageButton
+            android:id="@+id/main_title_left_button"
             android:layout_marginLeft="20dp"
             android:background="@drawable/btn_title_back"
             android:layout_width="24dp"
@@ -30,6 +31,7 @@
             android:layout_width="76dp"
             android:layout_height="32dp" />
         <TextView
+            android:fontFamily="sans-serif"
             android:visibility="gone"
             android:id="@+id/title_main_textview"
             android:textColor="@color/white"
@@ -43,19 +45,21 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content" />
         <ImageButton
+            android:id="@+id/main_title_right_button"
             android:layout_marginRight="20dp"
             android:background="@drawable/btn_title_my"
             android:layout_width="24dp"
             android:layout_height="24dp" />
     </LinearLayout>
-    <fragment
+    <FrameLayout
         android:id="@+id/main_fragment"
-        tools:layout="@layout/fragment_main"
-        class="com.curling.kingdomofcurling.ui.MainFragment"
-        android:layout_width="match_parent"
         android:layout_weight="1"
+        android:layout_width="match_parent"
         android:layout_height="0dp"/>
-
+    <View
+        android:background="@color/common_bound_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"

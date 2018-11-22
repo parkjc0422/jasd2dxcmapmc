@@ -32,4 +32,11 @@
     <string name="reserve_man">0 명</string>
     <string name="reserve_provision_1">개인장비가 있습니다.</string>
     <string name="reserve_provision_2">다른 체크 항목 표시</string>
+
+
+    <string name="curling_booking">컬링대관</string>
+    <string name="booking_menu_1">컬링장 예약 조회</string>
+    <string name="booking_menu_2">예약 확인</string>
+    <string name="booking_menu_3">예약 가이드</string>
+
 </resources>

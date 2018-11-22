@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.curling.kingdomofcurling.ui.ReservationFragment">
+    tools:context="com.curling.kingdomofcurling.ui.fragment.ReservationFragment">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -19,10 +19,14 @@
                 android:fontFamily="sans-serif"
                 android:textSize="13dp"
                 android:textStyle="normal"
-                android:text="@string/reserve_schedule_hint"
+                android:text="@string/reserve_schedule_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <Button
+                android:text="@string/reserve_schedule_hint"
+                android:paddingLeft="10dp"
+                android:gravity="left|center_vertical"
+                android:id="@+id/reserve_schedule_date"
                 android:layout_marginTop="2dp"
                 android:background="@drawable/textview_common"
                 android:layout_width="match_parent"
@@ -37,6 +41,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <Button
+                android:text="@string/reserve_schedule_hint"
+                android:paddingLeft="10dp"
+                android:gravity="left|center_vertical"
+                android:id="@+id/reserve_schedule_time"
                 android:layout_marginTop="2dp"
                 android:background="@drawable/textview_common"
                 android:layout_width="match_parent"
@@ -56,10 +64,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp">
                 <TextView
+                    android:paddingLeft="10dp"
+                    android:gravity="left|center_vertical"
+                    android:text="0 시간"
+                    android:id="@+id/reserve_time"
                     android:background="@drawable/textview_common"
                     android:layout_width="167dp"
                     android:layout_height="match_parent" />
                 <Button
+                    android:id="@+id/reserve_time_minus"
                     android:layout_weight="1"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="7dp"
@@ -68,6 +81,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="48dp" />
                 <Button
+                    android:id="@+id/reserve_time_plus"
                     android:layout_weight="1"
                     android:background="@drawable/btn_right_arrow"
                     android:layout_width="wrap_content"
@@ -91,10 +105,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp">
                 <TextView
+                    android:text="0 명"
+                    android:paddingLeft="10dp"
+                    android:gravity="left|center_vertical"
+                    android:id="@+id/reserve_total_member"
                     android:background="@drawable/textview_common"
                     android:layout_width="167dp"
                     android:layout_height="match_parent" />
                 <Button
+                    android:id="@+id/reserve_total_member_min"
                     android:layout_weight="1"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="7dp"
@@ -103,6 +122,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="48dp" />
                 <Button
+                    android:id="@+id/reserve_total_member_plus"
                     android:layout_weight="1"
                     android:background="@drawable/btn_right_arrow"
                     android:layout_width="wrap_content"
@@ -140,6 +160,7 @@
 
             </LinearLayout>
             <Button
+                android:id="@+id/reserve_commit"
                 android:layout_marginBottom="22dp"
                 android:layout_marginTop="34dp"
                 android:fontFamily="sans-serif"
