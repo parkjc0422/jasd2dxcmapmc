@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import com.curling.kingdomofcurling.R
 import kotlinx.android.synthetic.main.fragment_reservation.*
 import android.app.TimePickerDialog
+import android.content.Context
 import com.curling.kingdomofcurling.ui.dialog.showDatePickerCurrent
 import com.curling.kingdomofcurling.ui.dialog.showTimePickerCurrent
 import com.curling.kingdomofcurling.ui.MainActivity
@@ -20,8 +21,7 @@ class ReservationFragment : Fragment() {
     var totalMember: Int = 0
     var time:Int = 0
 
-    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater!!.inflate(R.layout.fragment_reservation, container, false)
     }
 
@@ -30,13 +30,13 @@ class ReservationFragment : Fragment() {
 
 
         reserve_schedule_date.setOnClickListener {
-            showDatePickerCurrent(activity, DatePickerDialog.OnDateSetListener { view, year, monthOfYear, dayOfMonth ->
+            showDatePickerCurrent(context as Context, DatePickerDialog.OnDateSetListener { view, year, monthOfYear, dayOfMonth ->
                 reserve_schedule_date.text = "$year - $monthOfYear - $dayOfMonth"
             })
         }
 
         reserve_schedule_time.setOnClickListener {
-            showTimePickerCurrent(activity, TimePickerDialog.OnTimeSetListener { view, hourOfDay, minute ->
+            showTimePickerCurrent(context as Context, TimePickerDialog.OnTimeSetListener { view, hourOfDay, minute ->
                 reserve_schedule_time.text = "$hourOfDay : $minute"
             })
         }

@@ -5,9 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.CameraViewActivity">
+    tools:context=".ui.camera.CameraViewActivity">
 
-    <com.curling.kingdomofcurling.ui.CameraPreview
+    <com.curling.kingdomofcurling.ui.camera.CameraPreview
         android:id="@+id/preview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

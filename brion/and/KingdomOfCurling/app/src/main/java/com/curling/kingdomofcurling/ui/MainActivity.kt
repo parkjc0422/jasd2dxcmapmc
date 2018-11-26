@@ -7,9 +7,12 @@ import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentActivity
 import android.view.View
 import com.curling.kingdomofcurling.R
+import com.curling.kingdomofcurling.ui.camera.CameraViewActivity
 import com.curling.kingdomofcurling.ui.fragment.BookingFragment
 import com.curling.kingdomofcurling.ui.fragment.MainFragment
+import com.curling.kingdomofcurling.ui.fragment.TravelInfoFragment
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.fragment_travel_info.*
 
 interface MainActivityTitleListener {
     fun pressedRightButton()
@@ -42,12 +45,12 @@ class MainActivity : FragmentActivity() {
         }
 
         navigation_3.setOnClickListener {
-//            selectTab(2)
             startActivity(Intent(this, CameraViewActivity::class.java))
         }
 
         navigation_4.setOnClickListener {
             selectTab(3)
+            setCurrentPage(TravelInfoFragment.instance)
         }
 
         navigation_5.setOnClickListener {

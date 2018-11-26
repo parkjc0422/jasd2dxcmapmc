@@ -4,17 +4,7 @@
             "outputFile": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da2e8d91a2fc24ee27f9e66065fac66d/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
-                    }
-                },
-                {
-                    "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/572b4fb31cac5599cd02e2c0e2a4d2b9/res/values-land/values-land.xml",
+                    "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/0eaa0ca57da2d7fe1316157aa12513b1/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "9",
                         "endColumns": "12",
                         "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c23092577664954dd1ede1e15f57b719/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
                     }
                 }
             ]

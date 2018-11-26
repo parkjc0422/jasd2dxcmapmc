@@ -39,4 +39,14 @@
     <string name="booking_menu_2">예약 확인</string>
     <string name="booking_menu_3">예약 가이드</string>
 
+    <string name="travel_info_title">관광정보</string>
+    <string name="travel_info_menu_1">주요 관광지 보기</string>
+    <string name="travel_info_menu_2">쿠폰 사용처 보기</string>
+
+
+    <string name="travel_detail_info_btn1">촬영하기</string>
+    <string name="travel_detail_info_btn2">위치보기</string>
+    <string name="travel_detail_info_btn3">오디오</string>
+
+
 </resources>

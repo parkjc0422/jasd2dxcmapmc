@@ -35,5 +35,10 @@
     <color name="tv_common_nor">#fdf8f5</color>
     <color name="tv_common_dim">#efe6e1</color>
 
+    <color name="tv_travel_info_title">#523730</color>
+    <color name="tv_travel_info_content">#938683</color>
+
+    <color name="detail_info_bound">#96817f</color>
+
 
 </resources>

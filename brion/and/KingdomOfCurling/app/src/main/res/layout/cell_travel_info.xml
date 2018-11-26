@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/travel_image"
+        android:layout_marginLeft="20dp"
+        android:layout_width="75dp"
+        android:layout_height="54dp" />
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="14dp"
+        android:orientation="vertical"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/travel_title"
+            android:textColor="@color/tv_travel_info_title"
+            android:maxLines="1"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/travel_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/tv_travel_info_content"
+            android:textSize="13dp"
+            android:maxLines="1"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
