@@ -2,7 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.curling.kingdomofcurling">
 
+    <!-- Camera -->
     <uses-permission android:name="android.permission.CAMERA" />
+    <!-- Network -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <!--Audio-->
+    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +21,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <service android:name=".service.MediaPlayerService" />
+        <meta-data android:name="com.kakao.sdk.AppKey" android:value="46d4077184f00824f05ee3960b9b6195"/>
+
         <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +32,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.camera.CameraViewActivity" />
-        <activity android:name=".ui.IntroActivity"></activity>
+        <activity android:name=".ui.IntroActivity" />
+        <activity android:name=".ui.map.CurlingMapActivity"/>
     </application>
 
 </manifest>

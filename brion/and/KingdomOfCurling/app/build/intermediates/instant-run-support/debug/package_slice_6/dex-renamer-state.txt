@@ -1,4 +1,4 @@
-#Mon Nov 26 22:12:56 KST 2018
+#Tue Nov 27 19:15:42 KST 2018
 base.0=/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/transforms/dexMerger/debug/6
 path.0=classes.dex
 renamed.0=classes.dex

@@ -22,7 +22,10 @@ class BookingFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-        booking_menu_1.setOnClickListener {  }
+        booking_menu_1.setOnClickListener {
+            val parent = activity as MainActivity
+            parent.setCurrentPage(CheckBookingFragment.instance)
+        }
         booking_menu_2.setOnClickListener {  }
         booking_menu_3.setOnClickListener {  }
 

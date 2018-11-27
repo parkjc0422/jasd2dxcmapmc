@@ -39,6 +39,9 @@
     <color name="tv_travel_info_content">#938683</color>
 
     <color name="detail_info_bound">#96817f</color>
+    <color name="booking_tab_color">#69534c</color>
 
+    <color name="sold_out">#a89b97</color>
+    <color name="reserve">#2cb9ad</color>
 
 </resources>

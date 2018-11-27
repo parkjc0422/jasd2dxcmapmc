@@ -12,6 +12,10 @@ import com.curling.kingdomofcurling.ui.MainActivity
 import com.curling.kingdomofcurling.ui.MainActivityTitleListener
 import com.curling.kingdomofcurling.ui.fragment.TravelInfoFragment
 import kotlinx.android.synthetic.main.fragment_detail_travel_info.*
+import android.content.Intent
+import com.curling.kingdomofcurling.ui.camera.CameraViewActivity
+import com.curling.kingdomofcurling.ui.map.CurlingMapActivity
+
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -48,6 +52,35 @@ class DetailTravelInfoFragment : Fragment() {
         // TODO : REMOVE CODE
         detail_travel_info_image.setImageResource(item.imageRes)
         detail_travel_info_title.text = item.title
+        detail_travel_info_info1.text = item.info1
+        detail_travel_info_info2.text = item.info2
+        detail_travel_info_address.text = item.address
+
+        detail_travel_info_share.setOnClickListener {
+            //TODO : what????????TODO?????
+            val subject = "메시지 제목"
+            val text = "메시지 내용은\n다음줄에서.."
+
+            val intent = Intent(android.content.Intent.ACTION_SEND)
+            intent.type = "text/plain"
+            intent.putExtra(Intent.EXTRA_SUBJECT, subject)
+            intent.putExtra(Intent.EXTRA_TEXT, text)
+            val chooser = Intent.createChooser(intent, "타이틀")
+            startActivity(chooser)
+        }
+
+        detail_travel_info_menu1.setOnClickListener {
+            startActivity(Intent(activity, CameraViewActivity::class.java))
+        }
+
+        detail_travel_info_menu2.setOnClickListener {
+            var mapIntent = Intent(activity, CurlingMapActivity::class.java)
+            mapIntent.putExtra(CurlingMapActivity.ADDRESS, item.address)
+            mapIntent.putExtra(CurlingMapActivity.NAME, item.title)
+            mapIntent.putExtra(CurlingMapActivity.LAT, item.lat)
+            mapIntent.putExtra(CurlingMapActivity.LNG, item.lng)
+            startActivity(mapIntent)
+        }
 
 
     }
@@ -75,13 +108,8 @@ class DetailTravelInfoFragment : Fragment() {
 
 
     companion object {
-        fun newInstance(item:TravelInfoAdapter.TravelInfo) :DetailTravelInfoFragment{
-            var fragment = DetailTravelInfoFragment()
-            var bundle = Bundle()
-            bundle.putSerializable(TRAVEL_IFNO_ITEM_VO, item)
-            fragment.arguments = bundle
-            return fragment
-        }
+        var instance = DetailTravelInfoFragment()
+        var item: TravelInfoAdapter.TravelInfo? = null
     }
 
 }

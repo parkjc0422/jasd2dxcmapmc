@@ -3,9 +3,11 @@ package com.curling.kingdomofcurling.ui
 import android.content.Intent
 import android.graphics.Typeface
 import android.os.Bundle
+import android.os.Handler
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentActivity
 import android.view.View
+import android.widget.Toast
 import com.curling.kingdomofcurling.R
 import com.curling.kingdomofcurling.ui.camera.CameraViewActivity
 import com.curling.kingdomofcurling.ui.fragment.BookingFragment
@@ -13,6 +15,13 @@ import com.curling.kingdomofcurling.ui.fragment.MainFragment
 import com.curling.kingdomofcurling.ui.fragment.TravelInfoFragment
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_travel_info.*
+import android.provider.SyncStateContract.Helpers.update
+import android.content.pm.PackageManager
+import android.content.pm.PackageInfo
+import android.util.Base64
+import android.util.Log
+import java.security.MessageDigest
+
 
 interface MainActivityTitleListener {
     fun pressedRightButton()
@@ -27,10 +36,35 @@ class MainActivity : FragmentActivity() {
 
         initTab()
         setCurrentPage(MainFragment.instance)
+
+        /**
+         * for Regist Kakao Map SDK Key Hash
+         */
+        val info = packageManager.getPackageInfo("com.curling.kingdomofcurling", PackageManager.GET_SIGNATURES)
+        for (signature in info.signatures) {
+            val md = MessageDigest.getInstance("SHA")
+            md.update(signature.toByteArray())
+            Log.d("KeyHash:", Base64.encodeToString(md.digest(), Base64.DEFAULT))
+        }
+
+
     }
 
     enum class TitleType {
         Title, Image
+    }
+
+    private var doubleBackToExitPressedOnce = false
+    override fun onBackPressed() {
+        if (doubleBackToExitPressedOnce) {
+            super.onBackPressed()
+            return
+        }
+
+        this.doubleBackToExitPressedOnce = true
+        Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show()
+
+        Handler().postDelayed(Runnable { doubleBackToExitPressedOnce = false }, 2000)
     }
 
     fun initTab() {

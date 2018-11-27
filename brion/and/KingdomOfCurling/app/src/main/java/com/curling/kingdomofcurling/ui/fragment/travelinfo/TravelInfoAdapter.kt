@@ -7,8 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
 import com.curling.kingdomofcurling.R
 import java.io.Serializable
 
@@ -45,7 +43,7 @@ class TravelInfoAdapter(val context:Context) :RecyclerView.Adapter<TravelInfoAda
                     //TODO Only test code
                     h.image.setImageResource(i.imageRes)
 
-                    h.image.setOnClickListener { item.clickEvent }
+                    h.image.setOnClickListener { item.clickEvent() }
                     // TODO: make url info
 //                    val requestOption = RequestOptions().skipMemoryCache(true)
 //                    Glide.with(context).load(i.imageUrl).apply(requestOption).into(h.image)
@@ -79,6 +77,8 @@ class TravelInfoAdapter(val context:Context) :RecyclerView.Adapter<TravelInfoAda
         var address:String = ""
         var info1:String = ""
         var info2: String = ""
+        var lat:Double = com.curling.kingdomofcurling.ui.map.CurlingMapActivity.DefaultLat
+        var lng:Double = com.curling.kingdomofcurling.ui.map.CurlingMapActivity.DefaultLng
 
         lateinit var clickEvent:()->Unit
     }

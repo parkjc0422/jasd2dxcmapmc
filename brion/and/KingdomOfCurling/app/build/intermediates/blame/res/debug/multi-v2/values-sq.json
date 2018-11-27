@@ -4,7 +4,17 @@
             "outputFile": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml",
             "map": [
                 {
-                    "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/22110bdf4a0e7a1598065b6827981f4a/res/values-sq/values-sq.xml",
+                    "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f7c8374273d3b61375ea02d11205c7f/res/values-sq/values-sq.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,1881",
+                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
+                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,1957"
+                    }
+                },
+                {
+                    "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f1dc8e47281d4803c4d60db74dac0270/res/values-sq/values-sq.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "1962",
                         "endColumns": "100",
                         "endOffsets": "2058"
-                    }
-                },
-                {
-                    "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c23092577664954dd1ede1e15f57b719/res/values-sq/values-sq.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,1881",
-                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
-                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,1957"
                     }
                 }
             ]

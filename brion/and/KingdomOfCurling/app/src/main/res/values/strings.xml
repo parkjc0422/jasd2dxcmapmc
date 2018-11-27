@@ -48,5 +48,10 @@
     <string name="travel_detail_info_btn2">위치보기</string>
     <string name="travel_detail_info_btn3">오디오</string>
 
+    <string name="booking_tab_info1">시간</string>
+    <string name="booking_tab_info2">상황</string>
+    <string name="booking_tab_info3">예약여부</string>
+    <string name="booking_tab_info4">예약현황</string>
+
 
 </resources>

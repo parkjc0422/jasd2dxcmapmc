@@ -4,7 +4,7 @@
             "outputFile": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml",
             "map": [
                 {
-                    "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c23092577664954dd1ede1e15f57b719/res/values-sl/values-sl.xml",
+                    "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f7c8374273d3b61375ea02d11205c7f/res/values-sl/values-sl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/22110bdf4a0e7a1598065b6827981f4a/res/values-sl/values-sl.xml",
+                    "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f1dc8e47281d4803c4d60db74dac0270/res/values-sl/values-sl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

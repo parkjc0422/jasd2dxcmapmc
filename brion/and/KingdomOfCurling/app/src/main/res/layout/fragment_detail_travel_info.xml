@@ -76,6 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="42dp">
                 <Button
+                    android:fontFamily="sans-serif"
                     android:text="@string/travel_detail_info_btn1"
                     android:id="@+id/detail_travel_info_menu1"
                     android:background="@drawable/detail_travel_info_btn"
@@ -86,6 +87,7 @@
                     android:layout_width="10dp"
                     android:layout_height="0dp" />
                 <Button
+                    android:fontFamily="sans-serif"
                     android:text="@string/travel_detail_info_btn2"
                     android:id="@+id/detail_travel_info_menu2"
                     android:background="@drawable/detail_travel_info_btn"
@@ -96,6 +98,7 @@
                     android:layout_width="10dp"
                     android:layout_height="0dp" />
                 <Button
+                    android:fontFamily="sans-serif"
                     android:text="@string/travel_detail_info_btn3"
                     android:id="@+id/detail_travel_info_menu3"
                     android:background="@drawable/detail_travel_info_btn"
