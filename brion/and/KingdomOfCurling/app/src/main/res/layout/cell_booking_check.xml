@@ -6,6 +6,8 @@
     android:layout_height="77dp">
 
     <TextView
+        android:gravity="center"
+        android:textAlignment="center"
         android:text="13dp"
         android:fontFamily="sans-serif"
         android:id="@+id/cell_booking_time"
@@ -14,6 +16,8 @@
         android:layout_height="wrap_content" />
 
     <TextView
+        android:gravity="center"
+        android:textAlignment="center"
         android:text="13dp"
         android:fontFamily="sans-serif"
         android:id="@+id/cell_booking_condition"
@@ -22,6 +26,8 @@
         android:layout_height="wrap_content" />
 
     <TextView
+        android:gravity="center"
+        android:textAlignment="center"
         android:text="13dp"
         android:fontFamily="sans-serif"
         android:id="@+id/cell_booking_available"
@@ -30,6 +36,8 @@
         android:layout_height="wrap_content" />
 
     <TextView
+        android:gravity="center"
+        android:textAlignment="center"
         android:text="13dp"
         android:fontFamily="sans-serif"
         android:id="@+id/cell_booking_status"

@@ -95,7 +95,9 @@ class DetailTravelInfoFragment : Fragment() {
             }
 
             override fun pressedLeftButton() {
-                parent.setCurrentPage(TravelInfoFragment.instance)
+                val instance = TravelInfoFragment.newInstance()
+                instance.currentStep = TravelInfoFragment.PageStep.Travel
+                parent.setCurrentPage(instance)
             }
         }
     }

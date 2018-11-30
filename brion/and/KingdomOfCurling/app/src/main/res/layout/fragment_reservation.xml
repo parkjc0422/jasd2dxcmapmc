@@ -23,6 +23,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <Button
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
                 android:text="@string/reserve_schedule_hint"
                 android:paddingLeft="10dp"
                 android:gravity="left|center_vertical"
@@ -41,6 +43,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <Button
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
                 android:text="@string/reserve_schedule_hint"
                 android:paddingLeft="10dp"
                 android:gravity="left|center_vertical"
@@ -64,6 +68,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp">
                 <TextView
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
                     android:paddingLeft="10dp"
                     android:gravity="left|center_vertical"
                     android:text="0 시간"
@@ -105,6 +111,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp">
                 <TextView
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
                     android:text="0 명"
                     android:paddingLeft="10dp"
                     android:gravity="left|center_vertical"

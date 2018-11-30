@@ -94,6 +94,12 @@ attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
+attr cardBackgroundColor
+attr cardCornerRadius
+attr cardElevation
+attr cardMaxElevation
+attr cardPreventCornerOverlap
+attr cardUseCompatPadding
 attr chainUseRtl
 attr checkboxStyle
 attr checkedTextViewStyle
@@ -114,6 +120,18 @@ attr colorError
 attr colorPrimary
 attr colorPrimaryDark
 attr colorSwitchThumbNormal
+attr com_facebook_auxiliary_view_position
+attr com_facebook_confirm_logout
+attr com_facebook_foreground_color
+attr com_facebook_horizontal_alignment
+attr com_facebook_is_cropped
+attr com_facebook_login_text
+attr com_facebook_logout_text
+attr com_facebook_object_id
+attr com_facebook_object_type
+attr com_facebook_preset_size
+attr com_facebook_style
+attr com_facebook_tooltip_mode
 attr commitIcon
 attr constraintSet
 attr constraint_referenced_ids
@@ -125,6 +143,11 @@ attr contentInsetLeft
 attr contentInsetRight
 attr contentInsetStart
 attr contentInsetStartWithNavigation
+attr contentPadding
+attr contentPaddingBottom
+attr contentPaddingLeft
+attr contentPaddingRight
+attr contentPaddingTop
 attr contentScrim
 attr controlBackground
 attr coordinatorLayoutStyle
@@ -469,10 +492,32 @@ color btn_common_nor
 color btn_common_sel
 color button_material_dark
 color button_material_light
+color cardview_dark_background
+color cardview_light_background
+color cardview_shadow_end_color
+color cardview_shadow_start_color
 color colorAccent
+color colorGreen
 color colorLightGray
 color colorPrimary
 color colorPrimaryDark
+color com_facebook_blue
+color com_facebook_button_background_color
+color com_facebook_button_background_color_disabled
+color com_facebook_button_background_color_focused
+color com_facebook_button_background_color_focused_disabled
+color com_facebook_button_background_color_pressed
+color com_facebook_button_background_color_selected
+color com_facebook_button_border_color_focused
+color com_facebook_button_login_background_color
+color com_facebook_button_login_silver_background_color
+color com_facebook_button_login_silver_background_color_pressed
+color com_facebook_button_text_color
+color com_facebook_device_auth_text
+color com_facebook_likeboxcountview_border_color
+color com_facebook_likeboxcountview_text_color
+color com_facebook_likeview_text_color
+color com_smart_login_code
 color common_bound_line
 color curlingFoc
 color curlingNor
@@ -499,6 +544,7 @@ color gameFoc
 color gameNor
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color impossible_color
 color main_bottom_bg
 color material_blue_grey_800
 color material_blue_grey_900
@@ -517,6 +563,7 @@ color navi_select_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
+color possible_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -525,6 +572,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color reserve
 color reserveFoc
 color reserveNor
 color ripple_material_dark
@@ -533,6 +581,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color sold_out
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -624,6 +673,25 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
+dimen cardview_compat_inset_shadow
+dimen cardview_default_elevation
+dimen cardview_default_radius
+dimen com_facebook_auth_dialog_corner_radius
+dimen com_facebook_auth_dialog_corner_radius_oversized
+dimen com_facebook_button_corner_radius
+dimen com_facebook_button_login_corner_radius
+dimen com_facebook_likeboxcountview_border_radius
+dimen com_facebook_likeboxcountview_border_width
+dimen com_facebook_likeboxcountview_caret_height
+dimen com_facebook_likeboxcountview_caret_width
+dimen com_facebook_likeboxcountview_text_padding
+dimen com_facebook_likeboxcountview_text_size
+dimen com_facebook_likeview_edge_padding
+dimen com_facebook_likeview_internal_padding
+dimen com_facebook_likeview_text_size
+dimen com_facebook_profilepictureview_preset_size_large
+dimen com_facebook_profilepictureview_preset_size_normal
+dimen com_facebook_profilepictureview_preset_size_small
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -790,6 +858,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bottom_background_img
 drawable btn_bottom_camera_f
 drawable btn_bottom_camera_n
 drawable btn_bottom_coupon_f
@@ -814,6 +883,32 @@ drawable btn_title_back
 drawable btn_title_my
 drawable checkbox_off
 drawable checkbox_on
+drawable close_btn_img
+drawable close_btn_img_black
+drawable com_facebook_auth_dialog_background
+drawable com_facebook_auth_dialog_cancel_background
+drawable com_facebook_auth_dialog_header_background
+drawable com_facebook_button_background
+drawable com_facebook_button_icon
+drawable com_facebook_button_icon_blue
+drawable com_facebook_button_icon_white
+drawable com_facebook_button_like_background
+drawable com_facebook_button_like_icon_selected
+drawable com_facebook_button_login_background
+drawable com_facebook_button_login_logo
+drawable com_facebook_button_login_silver_background
+drawable com_facebook_close
+drawable com_facebook_favicon_blue
+drawable com_facebook_profile_picture_blank_portrait
+drawable com_facebook_profile_picture_blank_square
+drawable com_facebook_tooltip_black_background
+drawable com_facebook_tooltip_black_bottomnub
+drawable com_facebook_tooltip_black_topnub
+drawable com_facebook_tooltip_black_xout
+drawable com_facebook_tooltip_blue_background
+drawable com_facebook_tooltip_blue_bottomnub
+drawable com_facebook_tooltip_blue_topnub
+drawable com_facebook_tooltip_blue_xout
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -838,6 +933,8 @@ drawable ic_main_point
 drawable ic_main_reservation
 drawable img_title_logo
 drawable jomoon
+drawable login_btn_img
+drawable naver_icon
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -885,8 +982,10 @@ id add
 id alertTitle
 id all
 id always
+id app_download_banner
 id async
 id auto
+id automatic
 id barrier
 id beginning
 id blocking
@@ -894,18 +993,38 @@ id booking_menu_1
 id booking_menu_2
 id booking_menu_3
 id bottom
+id box_count
+id button
+id buttonOAuthLoginImg
 id buttonPanel
 id cancel_action
+id cancel_button
+id cell_booking_available
+id cell_booking_condition
+id cell_booking_status
+id cell_booking_time
 id center
 id center_horizontal
 id center_vertical
 id chains
+id checkBookingList
 id check_booking_date
 id checkbox
 id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id com_facebook_body_frame
+id com_facebook_button_xout
+id com_facebook_device_auth_instructions
+id com_facebook_fragment_container
+id com_facebook_login_fragment_progress_bar
+id com_facebook_smart_instructions_0
+id com_facebook_smart_instructions_or
+id com_facebook_tooltip_bubble_view_bottom_pointer
+id com_facebook_tooltip_bubble_view_text_body
+id com_facebook_tooltip_bubble_view_top_pointer
+id confirmation_code
 id container
 id contentPanel
 id coordinator
@@ -930,6 +1049,7 @@ id detail_travel_info_title
 id dimensions
 id direct
 id disableHome
+id display_always
 id edit_query
 id end
 id end_padder
@@ -938,6 +1058,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id facebookLogin
 id fill
 id fill_horizontal
 id fill_vertical
@@ -954,9 +1075,11 @@ id icon_group
 id ifRoom
 id image
 id info
+id inline
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id large
 id largeLabel
 id left
 id line1
@@ -994,12 +1117,18 @@ id navigation_4
 id navigation_5
 id navigation_header_container
 id never
+id never_display
 id none
 id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id open_graph
+id package_icon
+id package_list
+id package_name
 id packed
+id page
 id parallax
 id parent
 id parentPanel
@@ -1007,9 +1136,12 @@ id parent_matrix
 id percent
 id pin
 id preview
+id progressBar
+id progress_bar
 id progress_circular
 id progress_horizontal
 id radio
+id remainTimerLogin
 id reserve_commit
 id reserve_schedule_date
 id reserve_schedule_time
@@ -1046,6 +1178,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id small
 id smallLabel
 id snackbar_action
 id snackbar_text
@@ -1094,11 +1227,16 @@ id travel_info_menu_1
 id travel_info_menu_2
 id travel_title
 id uniform
+id unknown
 id up
 id useLogo
 id view_offset_helper
 id visible
 id waterMark
+id webView
+id webviewEndKey
+id webviewNaviBar
+id wholeView
 id withText
 id wrap
 id wrap_content
@@ -1140,11 +1278,18 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_camera_view
+layout activity_email_login
 layout activity_intro
 layout activity_main
 layout activity_map
+layout cell_booking_check
 layout cell_travel_coupon
 layout cell_travel_info
+layout com_facebook_activity_layout
+layout com_facebook_device_auth_dialog_fragment
+layout com_facebook_login_fragment
+layout com_facebook_smart_device_dialog_fragment
+layout com_facebook_tooltip_bubble
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1161,10 +1306,13 @@ layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout fragment_booking
 layout fragment_check_booking
+layout fragment_custom_tab_dialog
 layout fragment_detail_travel_info
+layout fragment_email_login
 layout fragment_main
 layout fragment_reservation
 layout fragment_travel_info
+layout nlogin_browser_view
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -1180,6 +1328,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout package_list_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -1226,16 +1375,51 @@ string booking_tab_info3
 string booking_tab_info4
 string bottom_sheet_behavior
 string character_counter_pattern
+string com_facebook_device_auth_instructions
+string com_facebook_image_download_unknown_error
+string com_facebook_internet_permission_error_message
+string com_facebook_internet_permission_error_title
+string com_facebook_like_button_liked
+string com_facebook_like_button_not_liked
+string com_facebook_loading
+string com_facebook_loginview_cancel_action
+string com_facebook_loginview_log_in_button
+string com_facebook_loginview_log_in_button_continue
+string com_facebook_loginview_log_in_button_long
+string com_facebook_loginview_log_out_action
+string com_facebook_loginview_log_out_button
+string com_facebook_loginview_logged_in_as
+string com_facebook_loginview_logged_in_using_facebook
+string com_facebook_send_button_text
+string com_facebook_share_button_text
+string com_facebook_smart_device_instructions
+string com_facebook_smart_device_instructions_or
+string com_facebook_smart_login_confirmation_cancel
+string com_facebook_smart_login_confirmation_continue_as
+string com_facebook_smart_login_confirmation_title
+string com_facebook_tooltip_default
 string curling_booking
+string facebook_app_id
+string fb_login_protocol_scheme
 string hello_blank_fragment
 string hope_time
 string hope_time_title
+string impossible
+string intro_login_email
+string intro_login_facebook
 string main_menu_1
 string main_menu_2
 string main_menu_3
 string main_menu_4
 string main_ppl_loading
 string main_ppl_sub_loading
+string naveroauthlogin_string_getting_token
+string naveroauthlogin_string_group_id_not_available
+string naveroauthlogin_string_msg_naverapp_download_desc
+string naveroauthlogin_string_msg_naverapp_download_link
+string naveroauthlogin_string_network_state_not_available
+string naveroauthlogin_string_token_invalid
+string naveroauthlogin_string_update_naverapp
 string navi_1
 string navi_2
 string navi_3
@@ -1246,6 +1430,8 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string possible
+string remain
 string reservation
 string reserve_man
 string reserve_man_title
@@ -1253,7 +1439,9 @@ string reserve_provision_1
 string reserve_provision_2
 string reserve_schedule_hint
 string reserve_schedule_title
+string retry
 string search_menu_title
+string soldout
 string start_time_hint
 string start_time_title
 string status_bar_notification_info_overflow
@@ -1263,6 +1451,7 @@ string travel_detail_info_btn3
 string travel_info_menu_1
 string travel_info_menu_2
 string travel_info_title
+string use_application
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -1275,6 +1464,7 @@ style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
 style Base_Animation_AppCompat_DropDownUp
 style Base_Animation_AppCompat_Tooltip
+style Base_CardView
 style Base_DialogWindowTitle_AppCompat
 style Base_DialogWindowTitleBackground_AppCompat
 style Base_TextAppearance_AppCompat
@@ -1428,6 +1618,9 @@ style Base_Widget_AppCompat_Toolbar
 style Base_Widget_AppCompat_Toolbar_Button_Navigation
 style Base_Widget_Design_AppBarLayout
 style Base_Widget_Design_TabLayout
+style CardView
+style CardView_Dark
+style CardView_Light
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_ThemeOverlay_AppCompat
@@ -1640,6 +1833,14 @@ style Widget_Design_Snackbar
 style Widget_Design_TabLayout
 style Widget_Design_TextInputLayout
 style Widget_Support_CoordinatorLayout
+style com_facebook_activity_theme
+style com_facebook_auth_dialog
+style com_facebook_auth_dialog_instructions_textview
+style com_facebook_button
+style com_facebook_button_like
+style com_facebook_loginview_default_style
+style com_facebook_loginview_silver_style
+style tooltip_bubble_text
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -1658,6 +1859,7 @@ styleable AppCompatTheme android_windowIsFloating android_windowAnimationStyle a
 styleable BottomNavigationView elevation itemBackground itemIconTint itemTextColor menu
 styleable BottomSheetBehavior_Layout behavior_hideable behavior_peekHeight behavior_skipCollapsed
 styleable ButtonBarLayout allowStacking
+styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha
@@ -1700,3 +1902,6 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
+styleable com_facebook_like_view com_facebook_auxiliary_view_position com_facebook_foreground_color com_facebook_horizontal_alignment com_facebook_object_id com_facebook_object_type com_facebook_style
+styleable com_facebook_login_view com_facebook_confirm_logout com_facebook_login_text com_facebook_logout_text com_facebook_tooltip_mode
+styleable com_facebook_profile_picture_view com_facebook_is_cropped com_facebook_preset_size

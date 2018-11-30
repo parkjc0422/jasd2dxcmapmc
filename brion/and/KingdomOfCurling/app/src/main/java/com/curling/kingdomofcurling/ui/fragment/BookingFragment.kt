@@ -42,6 +42,7 @@ class BookingFragment : Fragment() {
 
     companion object {
         val fTag = "BookingFragment"
+
         fun newInstance(): BookingFragment = BookingFragment()
     }
 

@@ -1,42 +1,48 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-39:12
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-65:12
 MERGED from [com.android.support:design:27.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/aedd0fd31304a65860cc091e76deb576/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-login:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-login-4.38.1.aar/a69979a10543a33692873800a384d795/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/aca44dda8e84b62be44ef4cbe60b249c/AndroidManifest.xml:21:1-37:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f7c8374273d3b61375ea02d11205c7f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/e5ab9bba9c924d5cb531d660bca3b53a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/pjc/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ee03b40bcf4578c470e3f38d8bdee603/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/8d4f1558f8dcde130f6c9c95aea96880/AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:support-media-compat:27.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/75980156764209eb59d68fa61049a361/AndroidManifest.xml:17:1-22:12
+MERGED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:2:1-43:12
 MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/608fef8bfe730e771855e40d76193410/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:transition:27.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/bbf1d67066e2f79da56ef092a60dfa4b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/c566f7b1cc3a44be27a8faa772325fcc/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-core:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-core-4.38.1.aar/9867e19510c084839bd603db84963242/AndroidManifest.xml:21:1-53:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/pjc/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/7378eaa5918efddc668598458908a7c0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] /Users/pjc/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/add540f579a3c0272076d01167f20616/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c9ee6d8bada1ccff57000196753f5762/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/37ebb096f7ddda606918e582ede19259/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/a572c187e72fe106c07739bb56426873/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/2af622483b499f7bbc04fcda5ac19625/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/b6666c16bb6698fb632c3aa4962aefe9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/75980156764209eb59d68fa61049a361/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f1dc8e47281d4803c4d60db74dac0270/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/dffd8293110789c111fe0d7c84cc6f99/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/409651df2ace335a4b228bb625bd4690/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/875f1343e14fd94f0cf0006454ac52e8/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/5db89d54bbf4477e73c4cb7d0d1b0cb0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-65:12
 	package
 		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-39:12
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-65:12
 		INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-39:12
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:1-65:12
 		INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:2:11-69
@@ -46,22 +52,24 @@ ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/Andr
 		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:6:22-62
 uses-permission#android.permission.INTERNET
 ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:8:5-67
+MERGED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:14:5-67
+MERGED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:14:5-67
 	android:name
 		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:8:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:9:5-78
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:9:5-79
 	android:name
 		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:9:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:10:5-80
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:10:5-81
 	android:name
 		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:10:22-78
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:11:5-75
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:11:5-76
 	android:name
 		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:11:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:12:5-75
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:12:5-76
 	android:name
 		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:12:22-73
 permission#android.permission.MEDIA_CONTENT_CONTROL
@@ -69,71 +77,131 @@ ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/Andr
 	android:name
 		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:14:17-72
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:15:5-75
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:16:5-75
 	android:name
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:15:22-72
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:16:22-72
 application
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:17:5-37:19
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:18:5-63:19
+MERGED from [com.facebook.android:facebook-login:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-login-4.38.1.aar/a69979a10543a33692873800a384d795/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-login-4.38.1.aar/a69979a10543a33692873800a384d795/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/aca44dda8e84b62be44ef4cbe60b249c/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/aca44dda8e84b62be44ef4cbe60b249c/AndroidManifest.xml:28:5-35:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/pjc/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ee03b40bcf4578c470e3f38d8bdee603/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/pjc/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ee03b40bcf4578c470e3f38d8bdee603/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/8d4f1558f8dcde130f6c9c95aea96880/AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/8d4f1558f8dcde130f6c9c95aea96880/AndroidManifest.xml:10:5-20
+MERGED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:16:5-41:19
+MERGED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:16:5-41:19
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/c566f7b1cc3a44be27a8faa772325fcc/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/c566f7b1cc3a44be27a8faa772325fcc/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-core:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-core-4.38.1.aar/9867e19510c084839bd603db84963242/AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-core-4.38.1.aar/9867e19510c084839bd603db84963242/AndroidManifest.xml:28:5-51:19
 	android:supportsRtl
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:22:9-35
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:23:9-35
 	android:label
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:20:9-41
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:21:9-41
 	android:roundIcon
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:21:9-54
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:22:9-54
 	android:icon
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:19:9-43
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:20:9-43
 	android:allowBackup
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:18:9-35
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:23:9-40
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:24:9-40
 service#com.curling.kingdomofcurling.service.MediaPlayerService
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:24:9-63
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:25:9-63
 	android:name
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:24:18-60
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:25:18-60
 meta-data#com.kakao.sdk.AppKey
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:25:9-106
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:27:9-29:64
 	android:value
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:25:56-104
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:29:13-61
 	android:name
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:25:20-55
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:28:13-48
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:32:9-34:55
+	android:value
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:34:13-52
+	android:name
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:33:13-58
+activity#com.facebook.FacebookActivity
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:36:9-39:48
+MERGED from [com.facebook.android:facebook-common:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/aca44dda8e84b62be44ef4cbe60b249c/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/aca44dda8e84b62be44ef4cbe60b249c/AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:39:13-45
+	android:configChanges
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:38:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/aca44dda8e84b62be44ef4cbe60b249c/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:37:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:40:9-51:20
+MERGED from [com.facebook.android:facebook-common:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/aca44dda8e84b62be44ef4cbe60b249c/AndroidManifest.xml:34:9-67
+MERGED from [com.facebook.android:facebook-common:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/aca44dda8e84b62be44ef4cbe60b249c/AndroidManifest.xml:34:9-67
+	android:exported
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:42:13-36
+	android:name
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:41:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:43:13-50:29
+action#android.intent.action.VIEW
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:44:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:46:17-76
+	android:name
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:46:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:47:17-78
+	android:name
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:47:27-75
+data
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:49:17-75
+	android:scheme
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:49:23-72
 activity#com.curling.kingdomofcurling.ui.MainActivity
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:27:9-33:20
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:52:9-62
 	android:name
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:27:19-50
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:28:13-32:29
-action#android.intent.action.MAIN
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:29:17-69
-	android:name
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:29:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:31:17-77
-	android:name
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:31:27-74
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:52:19-50
 activity#com.curling.kingdomofcurling.ui.camera.CameraViewActivity
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:34:9-66
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:53:9-66
 	android:name
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:34:19-63
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:53:19-63
 activity#com.curling.kingdomofcurling.ui.IntroActivity
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:35:9-54
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:54:9-60:20
 	android:name
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:35:19-51
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:54:19-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:55:13-59:29
+action#android.intent.action.MAIN
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:56:17-69
+	android:name
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:56:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:58:17-77
+	android:name
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:58:27-74
 activity#com.curling.kingdomofcurling.ui.map.CurlingMapActivity
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:36:9-62
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:61:9-63
 	android:name
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:36:19-60
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:61:19-60
+activity#com.curling.kingdomofcurling.ui.EmailLoginActivity
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:62:9-68
+	android:name
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:62:19-56
 uses-sdk
 INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
 INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:design:27.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/aedd0fd31304a65860cc091e76deb576/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/aedd0fd31304a65860cc091e76deb576/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-login:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-login-4.38.1.aar/a69979a10543a33692873800a384d795/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-login-4.38.1.aar/a69979a10543a33692873800a384d795/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/aca44dda8e84b62be44ef4cbe60b249c/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/aca44dda8e84b62be44ef4cbe60b249c/AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f7c8374273d3b61375ea02d11205c7f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f7c8374273d3b61375ea02d11205c7f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/e5ab9bba9c924d5cb531d660bca3b53a/AndroidManifest.xml:20:5-44
@@ -142,14 +210,20 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/pjc/
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/pjc/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ee03b40bcf4578c470e3f38d8bdee603/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/8d4f1558f8dcde130f6c9c95aea96880/AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/8d4f1558f8dcde130f6c9c95aea96880/AndroidManifest.xml:6:5-8:41
-MERGED from [com.android.support:support-media-compat:27.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/75980156764209eb59d68fa61049a361/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/75980156764209eb59d68fa61049a361/AndroidManifest.xml:20:5-44
+MERGED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:8:5-11:62
+MERGED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:8:5-11:62
 MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/608fef8bfe730e771855e40d76193410/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/608fef8bfe730e771855e40d76193410/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:27.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/bbf1d67066e2f79da56ef092a60dfa4b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:27.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/bbf1d67066e2f79da56ef092a60dfa4b/AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/c566f7b1cc3a44be27a8faa772325fcc/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/c566f7b1cc3a44be27a8faa772325fcc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.android:facebook-core:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-core-4.38.1.aar/9867e19510c084839bd603db84963242/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-core-4.38.1.aar/9867e19510c084839bd603db84963242/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/pjc/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/7378eaa5918efddc668598458908a7c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/pjc/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/7378eaa5918efddc668598458908a7c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/pjc/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/add540f579a3c0272076d01167f20616/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/pjc/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/add540f579a3c0272076d01167f20616/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c9ee6d8bada1ccff57000196753f5762/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c9ee6d8bada1ccff57000196753f5762/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/37ebb096f7ddda606918e582ede19259/AndroidManifest.xml:20:5-44
@@ -160,6 +234,8 @@ MERGED from [com.android.support:support-core-utils:27.1.1] /Users/pjc/.gradle/c
 MERGED from [com.android.support:support-core-utils:27.1.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/2af622483b499f7bbc04fcda5ac19625/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/b6666c16bb6698fb632c3aa4962aefe9/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/b6666c16bb6698fb632c3aa4962aefe9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/75980156764209eb59d68fa61049a361/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/75980156764209eb59d68fa61049a361/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f1dc8e47281d4803c4d60db74dac0270/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f1dc8e47281d4803c4d60db74dac0270/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/dffd8293110789c111fe0d7c84cc6f99/AndroidManifest.xml:20:5-44
@@ -172,6 +248,8 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/pjc/.gradle/caches/t
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/5db89d54bbf4477e73c4cb7d0d1b0cb0/AndroidManifest.xml:20:5-44
 INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
 INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:11:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
 		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
@@ -180,3 +258,57 @@ INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/A
 		INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
 		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/aca44dda8e84b62be44ef4cbe60b249c/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/aca44dda8e84b62be44ef4cbe60b249c/AndroidManifest.xml:33:19-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:13:22-76
+activity#com.nhn.android.naverlogin.ui.OAuthLoginActivity
+ADDED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:17:9-19:67
+	android:theme
+		ADDED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:19:13-64
+	android:name
+		ADDED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:18:13-76
+activity#com.nhn.android.naverlogin.ui.OAuthLoginInAppBrowserActivity
+ADDED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:20:9-23:47
+	android:label
+		ADDED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:23:13-44
+	android:configChanges
+		ADDED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:22:13-59
+	android:name
+		ADDED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:21:13-88
+activity#com.nhn.android.naverlogin.ui.OAuthCustomTabActivity
+ADDED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:24:9-40:20
+	android:launchMode
+		ADDED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:27:13-44
+	android:configChanges
+		ADDED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:26:13-59
+	android:theme
+		ADDED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:28:13-72
+	android:name
+		ADDED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:25:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:authorize+data:path:/+data:scheme:naver3rdpartylogin
+ADDED from [:naveridlogin_android_sdk_4.2.0] /Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/AndroidManifest.xml:29:13-39:29
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-core-4.38.1.aar/9867e19510c084839bd603db84963242/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-core-4.38.1.aar/9867e19510c084839bd603db84963242/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-core-4.38.1.aar/9867e19510c084839bd603db84963242/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-core-4.38.1.aar/9867e19510c084839bd603db84963242/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-core-4.38.1.aar/9867e19510c084839bd603db84963242/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-core-4.38.1.aar/9867e19510c084839bd603db84963242/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-core-4.38.1.aar/9867e19510c084839bd603db84963242/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-core-4.38.1.aar/9867e19510c084839bd603db84963242/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-core-4.38.1.aar/9867e19510c084839bd603db84963242/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.38.1] /Users/pjc/.gradle/caches/transforms-1/files-1.1/facebook-core-4.38.1.aar/9867e19510c084839bd603db84963242/AndroidManifest.xml:48:25-92

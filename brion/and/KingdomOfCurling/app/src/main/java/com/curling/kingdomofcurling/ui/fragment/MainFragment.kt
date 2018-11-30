@@ -29,12 +29,17 @@ class MainFragment:Fragment() {
                 Log.d("check", "checl")
 
                 val parent = activity as MainActivity
+                ReservationFragment.lastFragment = this
                 parent.setCurrentPage(ReservationFragment.newInstance())
             }
 
             val point = it.findViewById<LinearLayout>(R.id.main_menu_point)
             point.setOnClickListener {
-
+                val parent = activity as MainActivity
+                parent.selectTab(3)
+                var instance = TravelInfoFragment.newInstance()
+                instance.currentStep = TravelInfoFragment.PageStep.Travel
+                parent.setCurrentPage(instance)
             }
             val coupon = it.findViewById<LinearLayout>(R.id.main_menu_coupon)
             coupon.setOnClickListener {

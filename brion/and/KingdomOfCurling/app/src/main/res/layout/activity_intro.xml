@@ -1,13 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/main_bottom_bg"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.IntroActivity">
 
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/img_title_logo"
+        android:layout_width="200dp"
+        android:layout_height="100dp" />
 
 
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-</LinearLayout>
+        <Button
+            android:id="@+id/login_button_by_email"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:textSize="13dp"
+            android:textColor="@color/white"
+            android:text="@string/intro_login_email"
+            android:background="@drawable/btn_common_theme"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+
+        <com.facebook.login.widget.LoginButton
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/facebookLogin"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+
+        <com.nhn.android.naverlogin.ui.view.OAuthLoginButton
+            android:id="@+id/buttonOAuthLoginImg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/remainTimerLogin"
+            android:textSize="14dp"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/top_title"
+            android:text="asdasdasd"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</RelativeLayout>

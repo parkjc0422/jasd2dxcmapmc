@@ -43,5 +43,7 @@
 
     <color name="sold_out">#a89b97</color>
     <color name="reserve">#2cb9ad</color>
-
+    <color name="possible_color">#2cb9ad</color>
+    <color name="impossible_color">#f05050</color>
+    <color name="colorGreen">#3F1</color>
 </resources>

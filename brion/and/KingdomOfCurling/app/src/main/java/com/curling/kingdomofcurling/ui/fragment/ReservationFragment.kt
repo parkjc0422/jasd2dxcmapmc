@@ -59,7 +59,7 @@ class ReservationFragment : Fragment() {
 
         reserve_commit.setOnClickListener {
             val parent = activity as MainActivity
-            parent.setCurrentPage(MainFragment.instance)
+            parent.setCurrentPage(lastFragment)
         }
 
         initParent()
@@ -93,7 +93,7 @@ class ReservationFragment : Fragment() {
         } else {
             totalMember += 1
         }
-        reserve_total_member.text = "$totalMember 시간"
+        reserve_total_member.text = "$totalMember 명"
     }
 
 
@@ -109,7 +109,7 @@ class ReservationFragment : Fragment() {
             }
 
             override fun pressedLeftButton() {
-                parent.setCurrentPage(MainFragment.instance)
+                parent.setCurrentPage(lastFragment)
             }
         }
     }
@@ -117,6 +117,7 @@ class ReservationFragment : Fragment() {
 
 
     companion object {
+        lateinit var lastFragment:Fragment
         fun newInstance(): ReservationFragment = ReservationFragment()
     }
 }
