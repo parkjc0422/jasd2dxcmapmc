@@ -2,14 +2,24 @@ package com.curling.kingdomofcurling.ui.camera;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.hardware.Camera;
+import android.net.Uri;
+import android.os.AsyncTask;
+import android.os.Environment;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback{
@@ -28,7 +38,17 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
             mCamera = Camera.open();
         }
         listPreviewSizes = mCamera.getParameters().getSupportedPreviewSizes();
+    }
 
+
+    public void takePicture (){
+        mCamera.takePicture(null, null, new Camera.PictureCallback() {
+            @Override
+            public void onPictureTaken(byte[] bytes, Camera camera) {
+                new SaveImageTask().execute(bytes);
+                resetCam();
+            }
+        });
     }
 
     //  SurfaceView 생성시 호출
@@ -63,11 +83,7 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
 
             // 자동포커스 설정
             mCamera.autoFocus(new Camera.AutoFocusCallback() {
-                public void onAutoFocus(boolean success, Camera camera) {
-                    if (success) {
-
-                    }
-                }
+                public void onAutoFocus(boolean success, Camera camera) { }
             });
         } catch (IOException e) {
         }
@@ -175,5 +191,47 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         }
 
         return optimalSize;
+    }
+
+
+
+
+    private void resetCam() {
+        mCamera.startPreview();
+    }
+
+    private void refreshGallery(File file) {
+        Intent mediaScanIntent = new Intent( Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
+        mediaScanIntent.setData(Uri.fromFile(file));
+        context.sendBroadcast(mediaScanIntent);
+    }
+
+    private class SaveImageTask extends AsyncTask<byte[], Void, Void> {
+
+        @Override
+        protected Void doInBackground(byte[]... data) {
+            FileOutputStream outStream = null;
+            try {
+                File sdCard = Environment.getExternalStorageDirectory();
+                File dir = new File (sdCard.getAbsolutePath() + "/curling");
+                dir.mkdirs();
+
+                String fileName = String.format("%d.jpg", System.currentTimeMillis());
+                File outFile = new File(dir, fileName);
+
+                outStream = new FileOutputStream(outFile);
+                outStream.write(data[0]);
+                outStream.flush();
+                outStream.close();
+
+                refreshGallery(outFile);
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } finally {
+            }
+            return null;
+        }
     }
 }

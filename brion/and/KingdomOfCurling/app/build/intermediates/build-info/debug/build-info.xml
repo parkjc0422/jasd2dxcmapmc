@@ -5,8 +5,9 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.2.1"
-    timestamp="1543578796741"
+    timestamp="1544094569510"
     token="3584345673806970245"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -18,29 +19,64 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="7" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2" />
 
+    <artifact
+        location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
     <artifact
         location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1543576034523"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1544090800628"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
+        <artifact
+            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1544093376519"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
@@ -54,10 +90,10 @@
             location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -65,47 +101,24 @@
         <artifact
             location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1544094503093"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1543578758213"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1544094569510"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
         <artifact
             location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1543578796741"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />

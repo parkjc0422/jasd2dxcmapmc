@@ -20,6 +20,7 @@ import android.content.pm.PackageManager
 import android.content.pm.PackageInfo
 import android.util.Base64
 import android.util.Log
+import com.curling.kingdomofcurling.ui.fragment.CouponFragment
 import java.security.MessageDigest
 
 
@@ -89,6 +90,7 @@ class MainActivity : FragmentActivity() {
 
         navigation_5.setOnClickListener {
             selectTab(4)
+            setCurrentPage(CouponFragment.instance)
         }
 
         main_title_left_button.setOnClickListener { listener?.pressedLeftButton() }

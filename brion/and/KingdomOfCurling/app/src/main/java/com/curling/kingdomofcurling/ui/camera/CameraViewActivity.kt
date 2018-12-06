@@ -19,7 +19,6 @@ import kotlinx.android.synthetic.main.activity_camera_view.*
 class CameraViewActivity : AppCompatActivity() {
     private var surfaceView: CameraPreview? = null
     private var holder: SurfaceHolder? = null
-    private val camera_preview_button: Button? = null
     private var mCamera: Camera? = null
     private val RESULT_PERMISSIONS = 100
     companion object {
@@ -61,7 +60,7 @@ class CameraViewActivity : AppCompatActivity() {
 
 
         takePicture.setOnClickListener {
-
+            surfaceView?.takePicture()
         }
     }
 
@@ -73,12 +72,13 @@ class CameraViewActivity : AppCompatActivity() {
         val sdkVersion = Build.VERSION.SDK_INT
         if (sdkVersion >= Build.VERSION_CODES.M) {
 
-            if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+            if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED
+            || ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED
+            || ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
 
                 ActivityCompat.requestPermissions(this@CameraViewActivity,
-                        arrayOf(Manifest.permission.CAMERA),
+                        arrayOf(Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE),
                         RESULT_PERMISSIONS)
-
             } else {
                 setInit()
             }

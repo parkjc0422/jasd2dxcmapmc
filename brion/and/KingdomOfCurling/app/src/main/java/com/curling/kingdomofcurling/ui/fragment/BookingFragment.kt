@@ -8,6 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import com.curling.kingdomofcurling.R
 import com.curling.kingdomofcurling.ui.MainActivity
+import com.curling.kingdomofcurling.ui.fragment.booking.CheckBookingFragment
+import com.curling.kingdomofcurling.ui.fragment.booking.CheckResvFragment
 import kotlinx.android.synthetic.main.fragment_booking.*
 
 
@@ -26,7 +28,10 @@ class BookingFragment : Fragment() {
             val parent = activity as MainActivity
             parent.setCurrentPage(CheckBookingFragment.instance)
         }
-        booking_menu_2.setOnClickListener {  }
+        booking_menu_2.setOnClickListener {
+            val parent = activity as MainActivity
+            parent.setCurrentPage(CheckResvFragment.instance)
+        }
         booking_menu_3.setOnClickListener {  }
 
         initParentTitle()

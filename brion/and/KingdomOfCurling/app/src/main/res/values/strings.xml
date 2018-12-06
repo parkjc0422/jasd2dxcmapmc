@@ -72,4 +72,18 @@
     <string name="login_button_enter">로그인</string>
     <string name="login_find_id">아이디 찾기</string>
     <string name="login_find_password">비밀번호 찾기</string>
+
+
+    <string name="coupon_menu_title">쿠폰샵</string>
+    <string name="coupon_menu_1">음식점 및 카페</string>
+    <string name="coupon_menu_2">기타 관광 상품</string>
+    <string name="coupon_menu_3">쿠폰 사용법 안내</string>
+
+    <string name="check_resv_title">예약 확인</string>
+    <string name="check_resv_tab1">날짜</string>
+    <string name="check_resv_tab2">시작시간</string>
+    <string name="check_resv_tab3">사용시간</string>
+    <string name="check_resv_tab4">인원</string>
+    <string name="check_resv_tab5">예약현황</string>
+
 </resources>

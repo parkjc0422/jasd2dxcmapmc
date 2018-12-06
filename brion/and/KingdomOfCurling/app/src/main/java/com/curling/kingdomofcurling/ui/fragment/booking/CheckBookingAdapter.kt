@@ -29,7 +29,7 @@ class CheckBookingAdapter(val context:Context): RecyclerView.Adapter<CheckBookin
                     holder.available.setTextColor(getColor(context,R.color.impossible_color))
                     holder.status.text = context.resources.getString(R.string.soldout)
                     holder.status.setTextColor(getColor(context,R.color.sold_out))
-                    holder.status.isClickable = false
+                    holder.status.isEnabled = false
                 }
                 CheckBookingItem.Status.Possible ->{
                     holder.available.text = context.resources.getString(R.string.possible)

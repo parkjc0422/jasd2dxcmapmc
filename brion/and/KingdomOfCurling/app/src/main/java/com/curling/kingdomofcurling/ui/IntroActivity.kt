@@ -29,13 +29,18 @@ class IntroActivity : FragmentActivity() {
         startLoginTimer()
     }
 
+
+    override fun onDestroy() {
+        super.onDestroy()
+        timer.cancel()
+    }
+
     var remainTick: Int = 4
     lateinit var timer:Timer
     fun startLoginTimer () {
         timer = Timer()
 
         timer.scheduleAtFixedRate(timerTask{
-
             if(remainTick > 0) {
                 remainTick -= 1
                 runOnUiThread {
