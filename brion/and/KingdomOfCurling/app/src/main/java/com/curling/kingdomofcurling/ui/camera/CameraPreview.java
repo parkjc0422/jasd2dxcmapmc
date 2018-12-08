@@ -4,23 +4,28 @@ package com.curling.kingdomofcurling.ui.camera;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.graphics.Canvas;
+import android.graphics.Color;
 import android.hardware.Camera;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Environment;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.view.DragEvent;
+import android.view.MotionEvent;
 import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+
+import com.curling.kingdomofcurling.ui.camera.module.WaterMark;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
+
 
 public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback{
 
@@ -28,6 +33,8 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
     public List<Camera.Size> listPreviewSizes;
     private Camera.Size previewSize;
     private Context context;
+
+    public CameraViewInterface listener = null;
 
     // SurfaceView 생성자
     public CameraPreview(Context context, AttributeSet attrs) {
@@ -41,6 +48,10 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
     }
 
 
+    /**
+     *  name :  takePicture
+     *  print camera screen
+     */
     public void takePicture (){
         mCamera.takePicture(null, null, new Camera.PictureCallback() {
             @Override
@@ -49,6 +60,28 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
                 resetCam();
             }
         });
+    }
+
+
+    private WaterMark waterMark;
+    public void addWaterMark (WaterMark waterMark) {
+        Canvas canvas = getHolder().lockCanvas();
+        this.waterMark = waterMark;
+        if(canvas != null) {
+            draw(canvas);
+            getHolder().unlockCanvasAndPost(canvas);
+        }
+    }
+
+
+
+    @Override
+    public void draw(Canvas canvas) {
+        super.draw(canvas);
+
+        if(waterMark != null) {
+            canvas.drawBitmap(waterMark.getBitmap() , 25, 25 , null);
+        }
     }
 
     //  SurfaceView 생성시 호출
@@ -85,7 +118,10 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
             mCamera.autoFocus(new Camera.AutoFocusCallback() {
                 public void onAutoFocus(boolean success, Camera camera) { }
             });
+            listener.onPreviewReady();
+
         } catch (IOException e) {
+            listener.onPreviewFail();
         }
     }
 

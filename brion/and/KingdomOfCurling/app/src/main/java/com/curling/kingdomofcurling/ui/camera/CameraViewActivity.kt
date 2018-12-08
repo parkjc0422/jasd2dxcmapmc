@@ -11,8 +11,10 @@ import android.os.Bundle;
 import android.view.SurfaceHolder;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Button;
 import com.curling.kingdomofcurling.R
+import com.curling.kingdomofcurling.ui.camera.module.OverlayFrame
+import com.curling.kingdomofcurling.ui.camera.module.WaterMark
+import com.curling.kingdomofcurling.util.toBitmap
 import kotlinx.android.synthetic.main.activity_camera_view.*
 
 
@@ -35,6 +37,9 @@ class CameraViewActivity : AppCompatActivity() {
 
         // 안드로이드 6.0 이상 버전에서는 CAMERA 권한 허가를 요청한다.
         requestPermissionCamera()
+
+
+        cameraBack.setOnClickListener { finish() }
     }
 
     fun getCamera(): Camera? {
@@ -62,6 +67,18 @@ class CameraViewActivity : AppCompatActivity() {
         takePicture.setOnClickListener {
             surfaceView?.takePicture()
         }
+
+        surfaceView?.listener = object :CameraViewInterface {
+            override fun onPreviewReady() {
+                var waterMark = WaterMark(toBitmap(this@CameraViewActivity, R.drawable.ic_list_map), OverlayFrame(10, 10, 10, 10))
+                surfaceView?.addWaterMark(waterMark)
+            }
+
+            override fun onPreviewFail() {
+            }
+        }
+
+
     }
 
 

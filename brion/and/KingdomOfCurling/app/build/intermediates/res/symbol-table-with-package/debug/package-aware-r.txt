@@ -997,6 +997,7 @@ id box_count
 id button
 id buttonOAuthLoginImg
 id buttonPanel
+id cameraBack
 id cancel_action
 id cancel_button
 id cell_booking_available
@@ -1247,6 +1248,7 @@ id useLogo
 id view_offset_helper
 id visible
 id waterMark
+id waterMarkPreview
 id webView
 id webviewEndKey
 id webviewNaviBar
