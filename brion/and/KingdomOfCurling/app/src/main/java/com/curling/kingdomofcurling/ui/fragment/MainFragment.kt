@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.LinearLayout
 import com.curling.kingdomofcurling.R
 import com.curling.kingdomofcurling.ui.MainActivity
+import com.curling.kingdomofcurling.ui.fragment.coupon.MyCouponFragment
 
 
 class MainFragment:Fragment() {
@@ -43,7 +44,11 @@ class MainFragment:Fragment() {
             }
             val coupon = it.findViewById<LinearLayout>(R.id.main_menu_coupon)
             coupon.setOnClickListener {
-
+                val parent = activity as MainActivity
+//                parent.selectTab(3)
+                var instance = MyCouponFragment.instance
+                MyCouponFragment.backState = this
+                parent.setCurrentPage(instance)
             }
             val game = it.findViewById<LinearLayout>(R.id.main_menu_curling_game)
             game.setOnClickListener {

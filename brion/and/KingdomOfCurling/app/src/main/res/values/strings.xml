@@ -86,4 +86,6 @@
     <string name="check_resv_tab4">인원</string>
     <string name="check_resv_tab5">예약현황</string>
 
+
+    <string name="my_coupon_title">내 쿠폰 보기</string>
 </resources>
