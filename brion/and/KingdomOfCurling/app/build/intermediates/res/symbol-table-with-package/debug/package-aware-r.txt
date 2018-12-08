@@ -1035,9 +1035,11 @@ id confirmation_code
 id container
 id contentPanel
 id coordinator
+id coupon_available
 id coupon_menu_1
 id coupon_menu_2
 id coupon_menu_3
+id coupon_name
 id custom
 id customPanel
 id decor_content_parent
@@ -1111,6 +1113,7 @@ id message
 id middle
 id mini
 id multiply
+id myCouponList
 id navi_img_1
 id navi_img_2
 id navi_img_3
@@ -1295,6 +1298,7 @@ layout activity_main
 layout activity_map
 layout cell_booking_check
 layout cell_check_resrv
+layout cell_my_coupon
 layout cell_travel_coupon
 layout cell_travel_info
 layout com_facebook_activity_layout
@@ -1324,6 +1328,7 @@ layout fragment_custom_tab_dialog
 layout fragment_detail_travel_info
 layout fragment_email_login
 layout fragment_main
+layout fragment_my_coupon
 layout fragment_reservation
 layout fragment_travel_info
 layout nlogin_browser_view
@@ -1444,6 +1449,7 @@ string main_menu_3
 string main_menu_4
 string main_ppl_loading
 string main_ppl_sub_loading
+string my_coupon_title
 string naveroauthlogin_string_getting_token
 string naveroauthlogin_string_group_id_not_available
 string naveroauthlogin_string_msg_naverapp_download_desc
