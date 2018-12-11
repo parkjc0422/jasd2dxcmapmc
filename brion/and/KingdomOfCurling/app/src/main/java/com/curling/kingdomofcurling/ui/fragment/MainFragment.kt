@@ -1,5 +1,6 @@
 package com.curling.kingdomofcurling.ui.fragment
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.util.Log
@@ -10,6 +11,7 @@ import android.widget.LinearLayout
 import com.curling.kingdomofcurling.R
 import com.curling.kingdomofcurling.ui.MainActivity
 import com.curling.kingdomofcurling.ui.fragment.coupon.MyCouponFragment
+import com.curling.kingdomofcurling.ui.game.CurlingGameActivity
 
 
 class MainFragment:Fragment() {
@@ -52,7 +54,8 @@ class MainFragment:Fragment() {
             }
             val game = it.findViewById<LinearLayout>(R.id.main_menu_curling_game)
             game.setOnClickListener {
-
+                val parent = activity as MainActivity
+                parent.startActivity(Intent(parent , CurlingGameActivity::class.java))
             }
         }
 

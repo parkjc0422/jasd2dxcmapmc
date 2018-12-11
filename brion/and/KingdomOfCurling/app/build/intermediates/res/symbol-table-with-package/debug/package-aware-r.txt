@@ -1077,6 +1077,7 @@ id fill_horizontal
 id fill_vertical
 id fixed
 id forever
+id gameWebContent
 id ghost_view
 id glide_custom_view_target_tag
 id gone
@@ -1099,7 +1100,9 @@ id line1
 id line3
 id listMode
 id list_item
+id loginEmailFrame
 id login_button_by_email
+id login_email_title_left_button
 id main_fragment
 id main_menu_coupon
 id main_menu_curling_game
@@ -1223,6 +1226,7 @@ id textinput_error
 id time
 id title
 id titleDividerNoCustom
+id title_email_textview
 id title_main_image
 id title_main_textview
 id title_template
@@ -1248,7 +1252,6 @@ id useLogo
 id view_offset_helper
 id visible
 id waterMark
-id waterMarkPreview
 id webView
 id webviewEndKey
 id webviewNaviBar
@@ -1294,6 +1297,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_camera_view
+layout activity_curling_game
 layout activity_email_login
 layout activity_intro
 layout activity_main
@@ -1443,6 +1447,7 @@ string login_email_id_hint
 string login_email_id_title
 string login_email_pw_hint
 string login_email_pw_title
+string login_email_title
 string login_find_id
 string login_find_password
 string main_menu_1

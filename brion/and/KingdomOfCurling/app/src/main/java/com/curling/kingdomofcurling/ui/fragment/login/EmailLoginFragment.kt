@@ -1,6 +1,7 @@
 package com.curling.kingdomofcurling.ui.fragment.login
 
 import android.content.Context
+import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -9,6 +10,8 @@ import android.view.View
 import android.view.ViewGroup
 
 import com.curling.kingdomofcurling.R
+import com.curling.kingdomofcurling.ui.EmailLoginActivity
+import com.curling.kingdomofcurling.ui.IntroActivity
 
 class EmailLoginFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,6 +24,18 @@ class EmailLoginFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_email_login, container, false)
     }
 
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
+
+        val parent = activity as EmailLoginActivity
+        parent.listener = object : EmailLoginActivity.LoginTitleListener{
+            override fun didPressedBack() {
+                val parent = activity as EmailLoginActivity
+                parent.startActivity(Intent(parent, IntroActivity::class.java))
+                parent.finish()
+            }
+        }
+    }
 
     companion object {
         fun newInstance () :EmailLoginFragment {

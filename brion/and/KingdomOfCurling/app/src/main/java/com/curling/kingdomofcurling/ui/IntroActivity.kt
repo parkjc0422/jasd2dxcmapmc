@@ -36,7 +36,7 @@ class IntroActivity : FragmentActivity() {
     }
 
     var remainTick: Int = 4
-    lateinit var timer:Timer
+    private lateinit var timer:Timer
     fun startLoginTimer () {
         timer = Timer()
 

@@ -27,6 +27,7 @@
     <application
         android:allowBackup="true"
         android:debuggable="true"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -61,18 +62,19 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        <activity android:name="com.curling.kingdomofcurling.ui.MainActivity" >
+        <activity android:name="com.curling.kingdomofcurling.ui.MainActivity" />
+        <activity android:name="com.curling.kingdomofcurling.ui.camera.CameraViewActivity" />
+        <activity android:name="com.curling.kingdomofcurling.ui.IntroActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.curling.kingdomofcurling.ui.camera.CameraViewActivity" />
-        <activity android:name="com.curling.kingdomofcurling.ui.IntroActivity" >
-        </activity>
         <activity android:name="com.curling.kingdomofcurling.ui.map.CurlingMapActivity" />
         <activity android:name="com.curling.kingdomofcurling.ui.EmailLoginActivity" />
+        <activity android:name="com.curling.kingdomofcurling.ui.game.CurlingGameActivity" >
+        </activity>
         <activity android:name="com.facebook.CustomTabMainActivity" />
         <activity
             android:name="com.nhn.android.naverlogin.ui.OAuthLoginActivity"

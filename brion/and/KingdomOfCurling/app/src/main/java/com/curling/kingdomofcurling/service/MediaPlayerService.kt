@@ -7,6 +7,9 @@ import android.media.MediaPlayer
 import android.os.Binder
 import android.os.IBinder
 
+/**
+ * not support spec
+ */
 class MediaPlayerService : Service(), MediaPlayer.OnCompletionListener, MediaPlayer.OnPreparedListener, MediaPlayer.OnErrorListener, MediaPlayer.OnSeekCompleteListener, MediaPlayer.OnInfoListener, MediaPlayer.OnBufferingUpdateListener, AudioManager.OnAudioFocusChangeListener {
 
     /**
