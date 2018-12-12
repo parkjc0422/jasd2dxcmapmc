@@ -1093,6 +1093,7 @@ id inline
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id joinEmailFrame
 id large
 id largeLabel
 id left
@@ -1103,6 +1104,7 @@ id list_item
 id loginEmailFrame
 id login_button_by_email
 id login_email_title_left_button
+id login_join_title_left_button
 id main_fragment
 id main_menu_coupon
 id main_menu_curling_game
@@ -1158,6 +1160,12 @@ id progressBar
 id progress_bar
 id progress_circular
 id progress_horizontal
+id provision_agree_button
+id provision_checkbox_1
+id provision_checkbox_2
+id provision_checkbox_all
+id provision_see_1
+id provision_see_2
 id radio
 id remainTimerLogin
 id reserve_commit
@@ -1227,6 +1235,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_email_textview
+id title_join_textview
 id title_main_image
 id title_main_textview
 id title_template
@@ -1300,6 +1309,7 @@ layout activity_camera_view
 layout activity_curling_game
 layout activity_email_login
 layout activity_intro
+layout activity_join
 layout activity_main
 layout activity_map
 layout cell_booking_check
@@ -1331,8 +1341,10 @@ layout fragment_check_booking
 layout fragment_check_resv
 layout fragment_coupon
 layout fragment_custom_tab_dialog
+layout fragment_detail_provision
 layout fragment_detail_travel_info
 layout fragment_email_login
+layout fragment_join_provision
 layout fragment_main
 layout fragment_my_coupon
 layout fragment_reservation
@@ -1475,6 +1487,13 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string possible
+string provision_1
+string provision_2
+string provision_agree
+string provision_check_all
+string provision_detail_title
+string provision_see
+string provision_title
 string remain
 string reservation
 string reserve_man

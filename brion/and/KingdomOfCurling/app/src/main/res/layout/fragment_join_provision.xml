@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.join.JoinProvisionFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <CheckBox
+            android:id="@+id/provision_checkbox_all"
+            android:textColor="@color/top_title"
+            android:paddingLeft="10dp"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/provision_check_all"
+            android:button="@drawable/btn_check_box_theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/common_bound_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/provision_checkbox_1"
+                android:textColor="@color/main_bottom_bg"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:textSize="13dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/provision_1"
+                android:button="@drawable/btn_check_box_theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/provision_see_1"
+                android:textSize="13dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/colorGreen"
+                android:text="@string/provision_see"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/provision_checkbox_2"
+                android:textColor="@color/main_bottom_bg"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:textSize="13dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/provision_2"
+                android:button="@drawable/btn_check_box_theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/provision_see_2"
+                android:textSize="13dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/colorGreen"
+                android:text="@string/provision_see"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Space
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" />
+
+        <Button
+            android:id="@+id/provision_agree_button"
+            android:enabled="false"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif"
+            android:text="@string/provision_agree"
+            android:background="@drawable/btn_common_theme"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </LinearLayout>
+</FrameLayout>

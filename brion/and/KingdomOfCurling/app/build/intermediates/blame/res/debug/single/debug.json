@@ -1468,6 +1468,10 @@
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f7c8374273d3b61375ea02d11205c7f/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_activity_join.xml.flat",
+        "source": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/res/layout/activity_join.xml"
+    },
+    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_package_list_item.xml.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/naveridlogin_android_sdk_4.2.0.aar/38953bd3ddb5c8eb6e9110a6a093ab35/res/layout/package_list_item.xml"
     },
@@ -1960,6 +1964,10 @@
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f7c8374273d3b61375ea02d11205c7f/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_fragment_detail_provision.xml.flat",
+        "source": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/res/layout/fragment_detail_provision.xml"
+    },
+    {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f7c8374273d3b61375ea02d11205c7f/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
@@ -2138,6 +2146,10 @@
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_design_navigation_item.xml.flat",
         "source": "/Users/pjc/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/aedd0fd31304a65860cc091e76deb576/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout_fragment_join_provision.xml.flat",
+        "source": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/res/layout/fragment_join_provision.xml"
     },
     {
         "merged": "/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",

@@ -7,6 +7,7 @@ import com.curling.kingdomofcurling.login.FacebookLoginManager
 import com.curling.kingdomofcurling.login.NaverLoginManager
 import kotlinx.android.synthetic.main.activity_intro.*
 import android.content.Intent
+import com.curling.kingdomofcurling.ui.join.JoinActivity
 import java.util.*
 import kotlin.concurrent.timerTask
 
@@ -47,7 +48,7 @@ class IntroActivity : FragmentActivity() {
                     remainTimerLogin.text = "${remainTick}초 회원가입"
                 }
             } else {
-                startActivity(Intent(this@IntroActivity, MainActivity::class.java))
+                startActivity(Intent(this@IntroActivity, JoinActivity::class.java))
                 timer.cancel()
                 finish()
             }

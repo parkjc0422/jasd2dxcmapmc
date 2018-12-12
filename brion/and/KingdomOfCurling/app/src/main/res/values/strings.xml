@@ -90,6 +90,13 @@
 
     <string name="my_coupon_title">내 쿠폰 보기</string>
 
+    <string name="provision_title">회원가입</string>
+    <string name="provision_check_all">약관 전체 동의</string>
+    <string name="provision_see"><u>보기</u></string>
+    <string name="provision_1">컬링의성 이용약관</string>
+    <string name="provision_2">개인정보 수집 및 이용에 대한 안내</string>
+    <string name="provision_agree">동의</string>
 
+    <string name="provision_detail_title">이용약관</string>
 
 </resources>
