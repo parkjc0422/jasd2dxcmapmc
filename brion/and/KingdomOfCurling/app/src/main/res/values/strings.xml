@@ -21,8 +21,8 @@
     <string name="main_menu_3">내쿠폰 보기</string>
     <string name="main_menu_4">컬링 게임</string>
 
-    <string name="main_ppl_loading">.....</string>
-    <string name="main_ppl_sub_loading">....................</string>
+    <string name="main_ppl_loading">산수유축제</string>
+    <string name="main_ppl_sub_loading">경북 의성군 사곡면 화전리(산수유 꽃피는 마을)</string>
 
     <string name="reservation">예약하기</string>
     <string name="reserve_schedule_title">예약 일정</string>

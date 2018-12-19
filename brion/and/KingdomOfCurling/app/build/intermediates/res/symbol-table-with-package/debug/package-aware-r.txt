@@ -533,6 +533,8 @@ color design_fab_stroke_top_outer_color
 color design_snackbar_background_color
 color design_tint_password_toggle
 color detail_info_bound
+color detail_info_fill_color_foc
+color detail_info_fill_color_nor
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -558,6 +560,9 @@ color material_grey_600
 color material_grey_800
 color material_grey_850
 color material_grey_900
+color myCouponFoc
+color myCouponNor
+color navi_bound_line
 color navi_nor_color
 color navi_select_color
 color notification_action_color_filter
@@ -875,7 +880,11 @@ drawable btn_checkbox_n
 drawable btn_common_theme
 drawable btn_detail_share
 drawable btn_ic_curling_theme
+drawable btn_ic_fb
 drawable btn_ic_game_theme
+drawable btn_ic_mail
+drawable btn_ic_my_coupon_theme
+drawable btn_ic_naver
 drawable btn_ic_reserv_theme
 drawable btn_left_arrow
 drawable btn_right_arrow
@@ -931,7 +940,9 @@ drawable ic_main_coupon
 drawable ic_main_game
 drawable ic_main_point
 drawable ic_main_reservation
+drawable img_01
 drawable img_title_logo
+drawable intro
 drawable jomoon
 drawable login_btn_img
 drawable naver_icon
@@ -1112,6 +1123,7 @@ id main_menu_point
 id main_menu_reserve
 id main_title_left_button
 id main_title_right_button
+id main_top_layout
 id map_view
 id masked
 id media_actions

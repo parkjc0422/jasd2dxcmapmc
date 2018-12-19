@@ -9,8 +9,9 @@
     tools:context="com.curling.kingdomofcurling.ui.MainActivity">
 
     <LinearLayout
+        android:id="@+id/main_top_layout"
         android:gravity="center_vertical"
-        android:background="@color/top_title"
+        android:background="@color/white"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="63dp">
@@ -57,9 +58,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"/>
     <View
-        android:background="@color/common_bound_line"
+        android:background="@color/navi_bound_line"
         android:layout_width="match_parent"
-        android:layout_height="1dp"/>
+        android:layout_height="6dp"/>
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"

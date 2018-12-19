@@ -1,45 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#d9cac0</color>
-    <color name="colorPrimaryDark">#d9cac0</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#28408c</color>
+    <color name="colorPrimaryDark">#28408c</color>
+    <color name="colorAccent">#28408c</color>
 
     <color name="colorLightGray">#AAA</color>
 
-    <color name="navi_select_color">#a67057</color>
-    <color name="navi_nor_color">#a89b97</color>
+    <color name="navi_select_color">#28408c</color>
+    <color name="navi_nor_color">#ababac</color>
 
-    <color name="top_title">#523730</color>
+    <color name="top_title">#28408c</color>
     <color name="white">#fff</color>
 
-    <color name="curlingFoc">#3e2b26</color>
-    <color name="curlingNor">#7d574d</color>
+    <color name="curlingFoc">#30749a</color>
+    <color name="curlingNor">#3c91c0</color>
 
-    <color name="gameFoc">#4c372e</color>
-    <color name="gameNor">#996f5c</color>
+    <color name="gameFoc">#969799</color>
+    <color name="gameNor">#bcbdbf</color>
 
-    <color name="reserveFoc">#261815</color>
-    <color name="reserveNor">#4c312a</color>
+    <color name="reserveFoc">#b55e64</color>
+    <color name="reserveNor">#e2757d</color>
+
+    <color name="myCouponFoc">#22528a</color>
+    <color name="myCouponNor">#2a67ac</color>
 
     <color name="main_bottom_bg">#d9cac0</color>
 
 
-    <color name="btn_common_sel">#61423b</color>
-    <color name="btn_common_nor">#3b3534</color>
-    <color name="btn_common_dim">#8e8480</color>
+    <color name="btn_common_sel">#153356</color>
+    <color name="btn_common_nor">#2a67ac</color>
+    <color name="btn_common_dim">#94b3d5</color>
 
     <color name="common_bound_line">#e5e5e5</color>
+    <color name="navi_bound_line">#14523730</color>
 
-    <color name="tv_common_foc">#fdf8f5</color>
-    <color name="tv_common_foc_outline">#99857e</color>
-    <color name="tv_common_nor">#fdf8f5</color>
-    <color name="tv_common_dim">#efe6e1</color>
+    <color name="tv_common_foc">#ebeced</color>
+    <color name="tv_common_foc_outline">#2a67ac</color>
+    <color name="tv_common_nor">#ebeced</color>
+    <color name="tv_common_dim">#f5f5f6</color>
 
     <color name="tv_travel_info_title">#523730</color>
     <color name="tv_travel_info_content">#938683</color>
 
     <color name="detail_info_bound">#96817f</color>
-    <color name="booking_tab_color">#69534c</color>
+    <color name="detail_info_fill_color_nor">#2a67ac</color>
+    <color name="detail_info_fill_color_foc">#1d4878</color>
+    <color name="booking_tab_color">#182565</color>
 
     <color name="sold_out">#a89b97</color>
     <color name="reserve">#2cb9ad</color>

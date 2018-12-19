@@ -11,7 +11,7 @@
 
         <LinearLayout
             android:orientation="vertical"
-            android:background="@color/main_bottom_bg"
+            android:background="@drawable/img_01"
             android:gravity="center"
             android:layout_weight="1"
             android:layout_width="match_parent"
@@ -36,7 +36,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:background="@color/main_bottom_bg"
+            android:background="@color/white"
             android:padding="10dp"
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -108,7 +108,7 @@
                     android:id="@+id/main_menu_coupon"
                     android:gravity="center"
                     android:orientation="horizontal"
-                    android:background="@drawable/btn_ic_reserv_theme"
+                    android:background="@drawable/btn_ic_my_coupon_theme"
                     android:layout_width="match_parent"
                     android:layout_height="51dp">
 

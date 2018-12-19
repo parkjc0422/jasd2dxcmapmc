@@ -106,12 +106,23 @@ class MainActivity : FragmentActivity() {
     }
 
     public fun makeTitleInfo (type: TitleType) {
+        when (type) {
+            TitleType.Title-> {
+                title_main_image.visibility = View.GONE
+                title_main_textview.visibility = View.VISIBLE
+                main_title_left_button.visibility = View.VISIBLE
+                main_top_layout.setBackgroundResource(R.color.top_title)
+            }
+            TitleType.Image -> {
+                title_main_image.visibility = View.VISIBLE
+                title_main_textview.visibility = View.GONE
+                main_top_layout.setBackgroundResource(R.color.white)
+                main_title_left_button.visibility = View.INVISIBLE
+            }
+        }
         if(type == TitleType.Image) {
-            title_main_image.visibility = View.VISIBLE
-            title_main_textview.visibility = View.GONE
+
         } else {
-            title_main_image.visibility = View.GONE
-            title_main_textview.visibility = View.VISIBLE
         }
     }
 

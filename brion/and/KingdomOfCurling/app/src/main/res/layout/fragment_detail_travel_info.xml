@@ -76,6 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="42dp">
                 <Button
+                    android:textColor="@color/white"
                     android:fontFamily="sans-serif"
                     android:text="@string/travel_detail_info_btn1"
                     android:id="@+id/detail_travel_info_menu1"
@@ -87,6 +88,7 @@
                     android:layout_width="10dp"
                     android:layout_height="0dp" />
                 <Button
+                    android:textColor="@color/white"
                     android:fontFamily="sans-serif"
                     android:text="@string/travel_detail_info_btn2"
                     android:id="@+id/detail_travel_info_menu2"
@@ -98,6 +100,7 @@
                     android:layout_width="10dp"
                     android:layout_height="0dp" />
                 <Button
+                    android:textColor="@color/white"
                     android:fontFamily="sans-serif"
                     android:text="@string/travel_detail_info_btn3"
                     android:id="@+id/detail_travel_info_menu3"
