@@ -11,7 +11,7 @@ import com.nhn.android.naverlogin.data.OAuthLoginPreferenceManager
 import com.nhn.android.naverlogin.ui.view.OAuthLoginButton
 
 
-class NaverLoginManager (val button:OAuthLoginButton, val mContext: Context){
+class NaverLoginManager (val button:OAuthLoginButton, val mContext: Context, val test:()->Unit){
     val TAG = "NaverLoginManager"
 
     companion object {
@@ -39,7 +39,7 @@ class NaverLoginManager (val button:OAuthLoginButton, val mContext: Context){
                     naverObject?.expiresAt = mOAuthLoginInstance.getExpiresAt(mContext)
                     naverObject?.tokenType = mOAuthLoginInstance.getTokenType(mContext)
 
-
+                    test()
                 } else {
                     val errorCode = mOAuthLoginInstance.getLastErrorCode(mContext).getCode()
                     val errorDesc = mOAuthLoginInstance.getLastErrorDesc(mContext)

@@ -173,27 +173,27 @@ ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/Andr
 	android:scheme
 		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:52:23-72
 activity#com.curling.kingdomofcurling.ui.MainActivity
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:55:9-61:20
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:55:9-56:20
 	android:name
 		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:55:19-50
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:56:13-60:29
-action#android.intent.action.MAIN
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:57:17-69
-	android:name
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:57:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:59:17-77
-	android:name
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:59:27-74
 activity#com.curling.kingdomofcurling.ui.camera.CameraViewActivity
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:62:9-66
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:57:9-66
 	android:name
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:62:19-63
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:57:19-63
 activity#com.curling.kingdomofcurling.ui.IntroActivity
-ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:63:9-64:20
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:58:9-64:20
 	android:name
-		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:63:19-51
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:58:19-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:59:13-63:29
+action#android.intent.action.MAIN
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:60:17-69
+	android:name
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:60:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:62:17-77
+	android:name
+		ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:62:27-74
 activity#com.curling.kingdomofcurling.ui.map.CurlingMapActivity
 ADDED from /Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/src/main/AndroidManifest.xml:65:9-63
 	android:name

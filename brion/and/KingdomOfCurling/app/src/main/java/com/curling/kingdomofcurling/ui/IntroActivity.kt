@@ -7,41 +7,69 @@ import com.curling.kingdomofcurling.login.FacebookLoginManager
 import com.curling.kingdomofcurling.login.NaverLoginManager
 import kotlinx.android.synthetic.main.activity_intro.*
 import android.content.Intent
+import android.view.View
 import com.curling.kingdomofcurling.ui.join.JoinActivity
 import java.util.*
 import kotlin.concurrent.timerTask
 
 
 class IntroActivity : FragmentActivity() {
+
+    companion object {
+        var isFirstTime:Boolean = true
+    }
+
     lateinit var naverLogin:NaverLoginManager
     lateinit var facebookLoginManager: FacebookLoginManager
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_intro)
 
-        naverLogin = NaverLoginManager(buttonOAuthLoginImg,applicationContext)
-        facebookLoginManager = FacebookLoginManager(applicationContext, facebookLogin)
+        naverLogin = NaverLoginManager(buttonOAuthLoginImg,applicationContext) {
+            startActivity(Intent(this@IntroActivity, MainActivity::class.java))
+            finish()
+        }
+
+        facebookLoginManager = FacebookLoginManager(applicationContext, facebookLogin) {
+            startActivity(Intent(this@IntroActivity, MainActivity::class.java))
+            finish()
+        }
 
         login_button_by_email.setOnClickListener {
             startActivity(Intent(this@IntroActivity, EmailLoginActivity::class.java))
             finish()
         }
+        if(isFirstTime) {
+            isFirstTime = false
+            startLoginTimer()
+        } else {
+            remainTimerLogin.visibility = View.GONE
+        }
 
-        startLoginTimer()
+        buttonOAuthLoginImg_dummy.setOnClickListener {
+            timer?.cancel()
+            buttonOAuthLoginImg.performClick()
+        }
+
+        facebookLogin_dummy.setOnClickListener {
+            timer?.cancel()
+            facebookLogin.performClick()
+        }
     }
 
 
     override fun onDestroy() {
         super.onDestroy()
-        timer.cancel()
+        timer?.cancel()
     }
 
     var remainTick: Int = 4
-    private lateinit var timer:Timer
+
+    private var timer:Timer? = null
     fun startLoginTimer () {
         timer = Timer()
 
-        timer.scheduleAtFixedRate(timerTask{
+        timer?.scheduleAtFixedRate(timerTask{
             if(remainTick > 0) {
                 remainTick -= 1
                 runOnUiThread {
@@ -49,7 +77,7 @@ class IntroActivity : FragmentActivity() {
                 }
             } else {
                 startActivity(Intent(this@IntroActivity, JoinActivity::class.java))
-                timer.cancel()
+                timer?.cancel()
                 finish()
             }
         }, 0, 1000)

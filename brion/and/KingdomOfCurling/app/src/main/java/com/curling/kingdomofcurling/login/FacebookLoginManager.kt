@@ -12,7 +12,7 @@ import com.facebook.login.LoginManager
 import com.facebook.AccessToken
 
 
-class FacebookLoginManager (val mContext: Context, val facebookButtonBase: LoginButton){
+class FacebookLoginManager (val mContext: Context, val facebookButtonBase: LoginButton ,val test:()->Unit){
     companion object {
         val ApplicationId = "323542258468432"
     }
@@ -44,6 +44,7 @@ class FacebookLoginManager (val mContext: Context, val facebookButtonBase: Login
                 object : FacebookCallback<LoginResult> {
                     override fun onSuccess(loginResult: LoginResult) {
                         // App code
+                        test()
                     }
 
                     override fun onCancel() {

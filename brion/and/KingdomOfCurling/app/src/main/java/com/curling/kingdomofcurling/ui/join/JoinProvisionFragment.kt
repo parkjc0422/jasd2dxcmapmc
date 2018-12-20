@@ -1,6 +1,7 @@
 package com.curling.kingdomofcurling.ui.join
 
 import android.content.Context
+import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -11,6 +12,7 @@ import android.view.ViewGroup
 
 import com.curling.kingdomofcurling.R
 import com.curling.kingdomofcurling.ui.EmailLoginActivity
+import com.curling.kingdomofcurling.ui.IntroActivity
 import kotlinx.android.synthetic.main.fragment_join_provision.*
 
 class JoinProvisionFragment : Fragment() {
@@ -42,7 +44,8 @@ class JoinProvisionFragment : Fragment() {
 
         parent.listener = object : JoinActivity.JoinListener{
             override fun didBackPress() {
-
+                startActivity(Intent(parent, IntroActivity::class.java))
+                parent.finish()
             }
         }
 
@@ -90,6 +93,7 @@ class JoinProvisionFragment : Fragment() {
 
         provision_agree_button.setOnClickListener {
             Log.d("ProvisionFragment", "click")
+            parent.setCurrentPage(SmsAuthFragment.instance)
         }
     }
 

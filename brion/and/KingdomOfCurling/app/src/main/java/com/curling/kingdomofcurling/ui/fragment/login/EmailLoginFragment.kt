@@ -12,6 +12,8 @@ import android.view.ViewGroup
 import com.curling.kingdomofcurling.R
 import com.curling.kingdomofcurling.ui.EmailLoginActivity
 import com.curling.kingdomofcurling.ui.IntroActivity
+import com.curling.kingdomofcurling.ui.MainActivity
+import kotlinx.android.synthetic.main.fragment_email_login.*
 
 class EmailLoginFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,6 +34,20 @@ class EmailLoginFragment : Fragment() {
             override fun didPressedBack() {
                 val parent = activity as EmailLoginActivity
                 parent.startActivity(Intent(parent, IntroActivity::class.java))
+                parent.finish()
+            }
+        }
+
+        logonButtonEmail.setOnClickListener {
+            val parent = activity as EmailLoginActivity
+            startActivity(Intent(parent, MainActivity::class.java))
+            parent.finish()
+        }
+
+        parent.listener = object :EmailLoginActivity.LoginTitleListener {
+            override fun didPressedBack() {
+                val parent = activity as EmailLoginActivity
+                startActivity(Intent(parent, IntroActivity::class.java))
                 parent.finish()
             }
         }

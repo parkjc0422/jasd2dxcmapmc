@@ -1,15 +1,21 @@
 package com.curling.kingdomofcurling.ui.join
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentActivity
 import com.curling.kingdomofcurling.R
+import com.curling.kingdomofcurling.ui.IntroActivity
 import kotlinx.android.synthetic.main.activity_join.*
 
 class JoinActivity : FragmentActivity() {
     var listener : JoinListener? = null
     var joinInfo = JoinInfo()
 
+
+    override fun onBackPressed() {
+        listener?.didBackPress()
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

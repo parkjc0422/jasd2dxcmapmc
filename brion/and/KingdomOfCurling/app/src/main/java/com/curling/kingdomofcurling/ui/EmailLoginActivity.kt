@@ -24,6 +24,9 @@ class EmailLoginActivity : FragmentActivity() {
 
     }
 
+    override fun onBackPressed() {
+        listener?.didPressedBack()
+    }
 
     fun setCurrentPage (frament: Fragment) {
         val transaction = supportFragmentManager.beginTransaction()

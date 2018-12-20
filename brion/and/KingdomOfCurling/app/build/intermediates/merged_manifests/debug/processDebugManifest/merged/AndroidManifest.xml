@@ -62,14 +62,14 @@
             </intent-filter>
         </activity>
         <activity android:name="com.curling.kingdomofcurling.ui.MainActivity" >
+        </activity>
+        <activity android:name="com.curling.kingdomofcurling.ui.camera.CameraViewActivity" />
+        <activity android:name="com.curling.kingdomofcurling.ui.IntroActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name="com.curling.kingdomofcurling.ui.camera.CameraViewActivity" />
-        <activity android:name="com.curling.kingdomofcurling.ui.IntroActivity" >
         </activity>
         <activity android:name="com.curling.kingdomofcurling.ui.map.CurlingMapActivity" />
         <activity android:name="com.curling.kingdomofcurling.ui.EmailLoginActivity" />

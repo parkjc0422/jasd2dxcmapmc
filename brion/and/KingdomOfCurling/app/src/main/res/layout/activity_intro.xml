@@ -2,19 +2,11 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/main_bottom_bg"
+    android:background="@drawable/intro"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.IntroActivity">
-
-    <ImageView
-        android:layout_marginTop="60dp"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/img_title_logo"
-        android:layout_width="200dp"
-        android:layout_height="100dp" />
-
 
     <LinearLayout
         android:padding="20dp"
@@ -24,19 +16,87 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
+        <LinearLayout
             android:id="@+id/login_button_by_email"
-            android:fontFamily="sans-serif"
-            android:textStyle="normal"
-            android:textSize="13dp"
-            android:textColor="@color/white"
-            android:text="@string/intro_login_email"
+            android:orientation="horizontal"
+            android:gravity="center"
             android:background="@drawable/btn_common_theme"
             android:layout_width="match_parent"
-            android:layout_height="40dp" />
+            android:layout_height="40dp">
+
+            <ImageView
+                android:background="@drawable/btn_ic_mail"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:textColor="@color/white"
+                android:text="@string/intro_login_email"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
 
 
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/facebookLogin_dummy"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/btn_fb_color"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:background="@drawable/btn_ic_fb"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:textColor="@color/white"
+                android:text="@string/intro_login_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/buttonOAuthLoginImg_dummy"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/btn_nv_color"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:background="@drawable/btn_ic_naver"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:textColor="@color/white"
+                android:text="@string/intro_login_naver"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
         <com.facebook.login.widget.LoginButton
+            android:visibility="gone"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:id="@+id/facebookLogin"
@@ -47,6 +107,7 @@
             android:layout_gravity="center_horizontal"/>
 
         <com.nhn.android.naverlogin.ui.view.OAuthLoginButton
+            android:visibility="gone"
             android:id="@+id/buttonOAuthLoginImg"
             android:layout_width="match_parent"
             android:layout_height="50dp" />

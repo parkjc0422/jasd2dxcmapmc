@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#28408c</color>
     <color name="colorPrimaryDark">#28408c</color>
-    <color name="colorAccent">#28408c</color>
+    <color name="colorAccent">#c73545</color>
 
     <color name="colorLightGray">#AAA</color>
 
@@ -30,6 +30,9 @@
     <color name="btn_common_sel">#153356</color>
     <color name="btn_common_nor">#2a67ac</color>
     <color name="btn_common_dim">#94b3d5</color>
+
+    <color name="btn_fb_color">#425b96</color>
+    <color name="btn_nv_color">#1ec800</color>
 
     <color name="common_bound_line">#e5e5e5</color>
     <color name="navi_bound_line">#14523730</color>

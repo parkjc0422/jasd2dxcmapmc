@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.fragment.login.EmailLoginFragment">
     <LinearLayout
-        android:background="@color/main_bottom_bg"
+        android:background="@color/white"
         android:padding="20dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -27,7 +27,14 @@
             android:background="@drawable/textview_common"
             android:layout_width="match_parent"
             android:layout_height="40dp" />
-
+        <TextView
+            android:visibility="gone"
+            android:text="이메일 형식이 아닙니다."
+            android:textSize="13dp"
+            android:fontFamily="sans-serif"
+            android:id="@+id/loginEmailAlert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
         <TextView
             android:textStyle="bold"
             android:layout_marginTop="10dp"
@@ -52,13 +59,14 @@
             android:fontFamily="sans-serif"
             android:textStyle="normal"
             android:textSize="11dp"
-            android:text="* 가입되지 않은 사용자입니다."
+            android:text="@string/login_email_invalid"
             android:textColor="@color/colorAccent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
 
         <Button
+            android:id="@+id/logonButtonEmail"
             android:text="@string/login_button_enter"
             android:textSize="13dp"
             android:textStyle="normal"

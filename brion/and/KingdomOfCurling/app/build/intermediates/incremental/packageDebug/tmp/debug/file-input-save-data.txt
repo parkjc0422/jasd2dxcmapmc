@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Dec 19 21:42:54 KST 2018
+#Thu Dec 20 21:40:51 KST 2018
 1.base=/Users/pjc/jasd2dxcmapmc/brion/and/KingdomOfCurling/app/build/intermediates/transforms/stripDebugSymbol/debug/0
 2.path=classes.dex
 0.baseType=DIRECTORY
