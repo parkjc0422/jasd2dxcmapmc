@@ -17,6 +17,10 @@
 		F13AA16F219802D600B1B4D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13AA16D219802D600B1B4D2 /* LaunchScreen.storyboard */; };
 		F13AA17A219802D600B1B4D2 /* KingdomOfCurlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13AA179219802D600B1B4D2 /* KingdomOfCurlingTests.swift */; };
 		F13AA185219802D600B1B4D2 /* KingdomOfCurlingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13AA184219802D600B1B4D2 /* KingdomOfCurlingUITests.swift */; };
+		F1B7D01A21DB2008006BF6EA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B7D01921DB2008006BF6EA /* MainViewController.swift */; };
+		F1B7D01D21DB2334006BF6EA /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B7D01C21DB2334006BF6EA /* StringUtils.swift */; };
+		F1B7D02221DB31BC006BF6EA /* ButtonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B7D02121DB31BB006BF6EA /* ButtonUtils.swift */; };
+		F1B7D02421DB31C8006BF6EA /* ViewControllerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B7D02321DB31C8006BF6EA /* ViewControllerUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		F13AA180219802D600B1B4D2 /* KingdomOfCurlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingdomOfCurlingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13AA184219802D600B1B4D2 /* KingdomOfCurlingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingdomOfCurlingUITests.swift; sourceTree = "<group>"; };
 		F13AA186219802D600B1B4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B7D01921DB2008006BF6EA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F1B7D01C21DB2334006BF6EA /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		F1B7D02121DB31BB006BF6EA /* ButtonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonUtils.swift; sourceTree = "<group>"; };
+		F1B7D02321DB31C8006BF6EA /* ViewControllerUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +132,11 @@
 		F13AA163219802D400B1B4D2 /* KingdomOfCurling */ = {
 			isa = PBXGroup;
 			children = (
+				F1B7D01E21DB29F7006BF6EA /* component */,
+				F1B7D01B21DB231D006BF6EA /* utils */,
+				F1B7D01821DB1FDB006BF6EA /* vc */,
+				F1B7D01721DB1E57006BF6EA /* network */,
 				F13AA164219802D400B1B4D2 /* AppDelegate.swift */,
-				F13AA166219802D400B1B4D2 /* ViewController.swift */,
 				F13AA168219802D400B1B4D2 /* Main.storyboard */,
 				F13AA16B219802D600B1B4D2 /* Assets.xcassets */,
 				F13AA16D219802D600B1B4D2 /* LaunchScreen.storyboard */,
@@ -150,6 +161,47 @@
 				F13AA186219802D600B1B4D2 /* Info.plist */,
 			);
 			path = KingdomOfCurlingUITests;
+			sourceTree = "<group>";
+		};
+		F1B7D01721DB1E57006BF6EA /* network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		F1B7D01821DB1FDB006BF6EA /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				F1B7D02521DB3A7C006BF6EA /* main */,
+				F13AA166219802D400B1B4D2 /* ViewController.swift */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		F1B7D01B21DB231D006BF6EA /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F1B7D01C21DB2334006BF6EA /* StringUtils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		F1B7D01E21DB29F7006BF6EA /* component */ = {
+			isa = PBXGroup;
+			children = (
+				F1B7D02121DB31BB006BF6EA /* ButtonUtils.swift */,
+				F1B7D02321DB31C8006BF6EA /* ViewControllerUtils.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		F1B7D02521DB3A7C006BF6EA /* main */ = {
+			isa = PBXGroup;
+			children = (
+				F1B7D01921DB2008006BF6EA /* MainViewController.swift */,
+			);
+			path = main;
 			sourceTree = "<group>";
 		};
 		FECC2B91271B88990E5A44F0 /* Pods */ = {
@@ -395,6 +447,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1B7D01D21DB2334006BF6EA /* StringUtils.swift in Sources */,
+				F1B7D02221DB31BC006BF6EA /* ButtonUtils.swift in Sources */,
+				F1B7D02421DB31C8006BF6EA /* ViewControllerUtils.swift in Sources */,
+				F1B7D01A21DB2008006BF6EA /* MainViewController.swift in Sources */,
 				F13AA167219802D400B1B4D2 /* ViewController.swift in Sources */,
 				F13AA165219802D400B1B4D2 /* AppDelegate.swift in Sources */,
 			);
