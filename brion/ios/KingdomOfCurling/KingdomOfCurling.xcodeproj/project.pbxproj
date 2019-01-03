@@ -97,6 +97,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2640360121DE1558003E89D0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		BF79A9164753D978FAD6827A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,7 +142,6 @@
 				F1B7D01E21DB29F7006BF6EA /* component */,
 				F1B7D01B21DB231D006BF6EA /* utils */,
 				F1B7D01821DB1FDB006BF6EA /* vc */,
-				F1B7D01721DB1E57006BF6EA /* network */,
 				F13AA164219802D400B1B4D2 /* AppDelegate.swift */,
 				F13AA168219802D400B1B4D2 /* Main.storyboard */,
 				F13AA16B219802D600B1B4D2 /* Assets.xcassets */,
@@ -161,13 +167,6 @@
 				F13AA186219802D600B1B4D2 /* Info.plist */,
 			);
 			path = KingdomOfCurlingUITests;
-			sourceTree = "<group>";
-		};
-		F1B7D01721DB1E57006BF6EA /* network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = network;
 			sourceTree = "<group>";
 		};
 		F1B7D01821DB1FDB006BF6EA /* vc */ = {
@@ -199,6 +198,7 @@
 		F1B7D02521DB3A7C006BF6EA /* main */ = {
 			isa = PBXGroup;
 			children = (
+				2640360121DE1558003E89D0 /* view */,
 				F1B7D01921DB2008006BF6EA /* MainViewController.swift */,
 			);
 			path = main;
@@ -379,6 +379,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KingdomOfCurling/Pods-KingdomOfCurling-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -387,6 +388,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
