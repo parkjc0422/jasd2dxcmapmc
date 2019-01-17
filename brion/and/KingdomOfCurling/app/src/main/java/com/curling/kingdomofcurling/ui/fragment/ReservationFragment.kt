@@ -19,7 +19,8 @@ import com.curling.kingdomofcurling.ui.MainActivityTitleListener
 class ReservationFragment : Fragment() {
 
     var totalMember: Int = 0
-    var time:Int = 0
+    var timeHour: Int = 0
+    var timeMinute:Boolean = false
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater!!.inflate(R.layout.fragment_reservation, container, false)
@@ -71,16 +72,49 @@ class ReservationFragment : Fragment() {
     }
 
     fun setTime (plus: Boolean) {
-        if(!plus) {
-            if(time == 0) {
-                time = 0
+
+        if(plus) { // plus
+            if(timeHour == 0) {
+                // 0 -> 1
+                timeHour = 1
+            } else if (timeMinute) {
+                // h.5 -> h + 1
+                timeMinute = false
+                timeHour += 1
             } else {
-                time -= 1
+                // h -> h.5
+                timeMinute = true
             }
-        } else {
-            time += 1
+        } else { // minus
+            if (timeHour == 0) {
+                // 0 -> 0
+                timeHour = 0
+                timeMinute = false
+            } else if(timeHour == 1) {
+                if(timeMinute) {
+                    // 1.5 -> 1
+                    timeHour = 1
+                    timeMinute = false
+                } else {
+                    //1 -> 0
+                    timeHour = 0
+                    timeMinute = false
+                }
+            } else {
+                if(timeMinute) {
+                    timeMinute = false
+                } else {
+                    timeHour -= 1
+                    timeMinute = true
+                }
+            }
         }
-        reserve_time.text = "$time 시간"
+
+        if(!timeMinute)
+            reserve_time.text = "$timeHour 시간"
+        else {
+            reserve_time.text = "$timeHour 시간 30 분"
+        }
     }
 
     fun setMember (plus: Boolean) {
