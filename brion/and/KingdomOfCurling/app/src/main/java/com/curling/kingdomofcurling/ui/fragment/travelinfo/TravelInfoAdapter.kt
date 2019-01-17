@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.TextView
 import com.curling.kingdomofcurling.R
 import java.io.Serializable
@@ -43,7 +44,8 @@ class TravelInfoAdapter(val context:Context) :RecyclerView.Adapter<TravelInfoAda
                     //TODO Only test code
                     h.image.setImageResource(i.imageRes)
 
-                    h.image.setOnClickListener { item.clickEvent() }
+//                    h.image.setOnClickListener { item.clickEvent() }
+                    h.layer.setOnClickListener { item.clickEvent() }
                     // TODO: make url info
 //                    val requestOption = RequestOptions().skipMemoryCache(true)
 //                    Glide.with(context).load(i.imageUrl).apply(requestOption).into(h.image)
@@ -92,12 +94,14 @@ class TravelInfoAdapter(val context:Context) :RecyclerView.Adapter<TravelInfoAda
         lateinit var image:ImageView
         lateinit var title:TextView
         lateinit var content:TextView
+        lateinit var layer:LinearLayout
 
         init {
             view?.let {
                 image = it.findViewById(R.id.travel_image)
                 title = it.findViewById(R.id.travel_title)
                 content = it.findViewById(R.id.travel_content)
+                layer = it.findViewById(R.id.layerTab)
             }
         }
     }

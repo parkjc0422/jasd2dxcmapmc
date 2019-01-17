@@ -35,6 +35,7 @@ class MyCouponFragment : Fragment() {
         val parent = activity as MainActivity
 
         parent.setMainTitle(resources.getString(R.string.my_coupon_title))
+        parent.makeTitleInfo(type = MainActivity.TitleType.Title)
         parent.listener = object : MainActivityTitleListener {
             override fun pressedRightButton() {
                 //TODO : ????
@@ -54,10 +55,32 @@ class MyCouponFragment : Fragment() {
     }
 
     fun makeCouponData ( ){
-        for(i in 0 .. 10) {
-            var item = MyCouponAdapter.MyCouponItem()
-            myCouponAdapter.items.add(item)
-        }
+        var item = MyCouponAdapter.MyCouponItem()
+        item.couponName = resources.getString(R.string.coupon_1000p)
+        item.enable = true
+        item.tempImage = R.drawable.ic_coupon01
+        myCouponAdapter.items.add(item)
+
+
+        var item1 = MyCouponAdapter.MyCouponItem()
+        item1.couponName = resources.getString(R.string.coupon_3000p)
+        item1.enable = true
+        item1.tempImage = R.drawable.ic_coupon02
+        myCouponAdapter.items.add(item1)
+
+
+        var item2 = MyCouponAdapter.MyCouponItem()
+        item2.couponName = resources.getString(R.string.coupon_5000p)
+        item2.enable = true
+        item2.tempImage = R.drawable.ic_coupon03
+        myCouponAdapter.items.add(item2)
+
+
+        var item3 = MyCouponAdapter.MyCouponItem()
+        item3.couponName = resources.getString(R.string.coupon_1000p)
+        item3.enable = false
+        item3.tempImage = R.drawable.ic_coupon04
+        myCouponAdapter.items.add(item3)
     }
 
     fun initComponent (parent:MainActivity) {

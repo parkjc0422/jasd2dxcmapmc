@@ -118,4 +118,10 @@
     <string name="user_info_pw_2_hint">비밀번호 재확인</string>
     <string name="user_info_pw_invalid">* 비밀번호가 일치 하지 않습니다.</string>
     <string name="user_info_next">회원가입</string>
+
+    <string name="coupon_1000p">1000포인트 쿠폰</string>
+    <string name="coupon_3000p">3000포인트 쿠폰</string>
+    <string name="coupon_5000p">5000포인트 쿠폰</string>
+    <string name="coupon_enable_string">사용가능</string>
+    <string name="coupon_disable_string">사용완료</string>
 </resources>

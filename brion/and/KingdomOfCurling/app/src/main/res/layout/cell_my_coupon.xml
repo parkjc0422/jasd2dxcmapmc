@@ -2,19 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:gravity="center_horizontal"
+    android:paddingTop="20dp"
+    android:paddingBottom="23dp"
     android:layout_height="wrap_content">
 
     <Button
         android:id="@+id/coupon_available"
-        android:background="@drawable/textview_common"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/btn_oval_color_dim"
+        android:textSize="9dp"
+        android:enabled="false"
+        android:background="@drawable/oval_button"
         android:text="사용가능"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="54dp"
+        android:layout_height="20dp" />
 
     <TextView
+        android:textAlignment="center"
+        android:layout_marginTop="18dp"
         android:id="@+id/coupon_name"
         android:text="test"
-        android:textSize="14dp"
+        android:textSize="18dp"
         android:fontFamily="sans-serif"
         android:textStyle="normal"
         android:layout_width="wrap_content"
@@ -22,8 +30,9 @@
 
 
     <ImageView
-        android:layout_margin="10dp"
-        android:background="@color/tv_travel_info_content"
-        android:layout_width="100dp"
-        android:layout_height="50dp" />
+        android:id="@+id/coupon_image"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/ic_coupon01"
+        android:layout_width="139dp"
+        android:layout_height="83dp" />
 </LinearLayout>

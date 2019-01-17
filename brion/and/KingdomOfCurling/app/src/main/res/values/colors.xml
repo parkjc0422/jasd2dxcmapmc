@@ -55,4 +55,9 @@
     <color name="possible_color">#2cb9ad</color>
     <color name="impossible_color">#f05050</color>
     <color name="colorGreen">#3F1</color>
+
+    <color name="btn_oval_color_nor">#3c91c0</color>
+    <color name="btn_oval_color_dim">#bcc5de</color>
+    <color name="coupon_enable">#28408c</color>
+    <color name="coupon_disable">#ced2e0</color>
 </resources>
