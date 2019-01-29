@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/coupon_buy_bg_color"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.coupon.CouponDetailActivity">
+
+    <LinearLayout
+        android:id="@+id/main_top_layout"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="63dp">
+
+        <ImageButton
+            android:id="@+id/coupon_buy_back"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/btn_title_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+        <Space
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:fontFamily="sans-serif"
+            android:id="@+id/coupon_buy_title"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="아이스 아메리카노"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Space
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:id="@+id/coupon_buy_my_info_button"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_title_my"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/round_layout_shape"
+        android:layout_marginRight="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/coupon_store_content"
+            android:text="음식점 및 카페"
+            android:textColor="#aab0ca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_coupon01"
+            android:layout_width="221dp"
+            android:layout_height="132dp" />
+
+        <TextView
+            android:fontFamily="sans-serif"
+            android:textColor="#28408c"
+            android:text="@string/coupon_1000p"
+            android:layout_marginTop="27dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Space
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:background="@drawable/coupon_detail_button"
+                android:id="@+id/coupon_detail_info"
+                android:layout_width="129dp"
+                android:layout_height="41dp" />
+            <Space
+                android:layout_width="19dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:background="@drawable/coupon_location_button"
+                android:id="@+id/coupon_detail_location"
+                android:layout_width="129dp"
+                android:layout_height="41dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="36dp"
+            android:background="#eef2f5"
+            android:layout_width="296dp"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/coupon_store_name"
+                    android:layout_gravity="start"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/coupon_store_info_tag_color"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:fontFamily="sans-serif"
+                    android:text="스타벅스"
+                    android:textColor="@color/coupon_store_info_color"
+                    android:textAlignment="viewEnd"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/coupon_store_mdn"
+                    android:layout_gravity="start"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/coupon_store_info_tag_color"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:fontFamily="sans-serif"
+                    android:text="02-1234-5678"
+                    android:textColor="@color/coupon_store_info_color"
+                    android:textAlignment="viewEnd"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/coupon_buy_button_color"
+        android:text="@string/coupon_buy"
+        android:layout_width="match_parent"
+        android:layout_height="64dp" />
+</LinearLayout>

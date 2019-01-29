@@ -124,4 +124,9 @@
     <string name="coupon_5000p">5000포인트 쿠폰</string>
     <string name="coupon_enable_string">사용가능</string>
     <string name="coupon_disable_string">사용완료</string>
+    
+    
+    <string name="coupon_buy">구매하기</string>
+    <string name="coupon_store_name">교환처</string>
+    <string name="coupon_store_mdn">문의처</string>
 </resources>

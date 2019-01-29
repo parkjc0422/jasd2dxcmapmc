@@ -60,4 +60,10 @@
     <color name="btn_oval_color_dim">#bcc5de</color>
     <color name="coupon_enable">#28408c</color>
     <color name="coupon_disable">#ced2e0</color>
+
+    <color name="coupon_buy_bg_color">#28408c</color>
+    <color name="coupon_buy_button_color">#151f40</color>
+    <color name="coupon_store_info_tag_color">#a5abb2</color>
+    <color name="coupon_store_info_color">#3d4246</color>
+
 </resources>

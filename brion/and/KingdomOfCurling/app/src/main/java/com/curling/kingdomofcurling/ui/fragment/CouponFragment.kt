@@ -1,6 +1,7 @@
 package com.curling.kingdomofcurling.ui.fragment
 
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
@@ -9,6 +10,7 @@ import android.view.ViewGroup
 
 import com.curling.kingdomofcurling.R
 import com.curling.kingdomofcurling.ui.MainActivity
+import com.curling.kingdomofcurling.ui.coupon.CouponDetailActivity
 import kotlinx.android.synthetic.main.fragment_coupon.*
 
 /**
@@ -34,7 +36,8 @@ class CouponFragment : Fragment() {
 
     fun initAction () {
         coupon_menu_1.setOnClickListener {
-
+            val parent = activity as MainActivity
+            parent.startActivity(Intent(parent, CouponDetailActivity::class.java))
         }
 
         coupon_menu_2.setOnClickListener {
