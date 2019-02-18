@@ -11,6 +11,7 @@ import com.curling.kingdomofcurling.ui.MainActivity
 import com.curling.kingdomofcurling.ui.MainActivityTitleListener
 import com.curling.kingdomofcurling.ui.fragment.BookingFragment
 import com.curling.kingdomofcurling.ui.fragment.ReservationFragment
+import com.curling.kingdomofcurling.ui.fragment.myinfo.MyInfoFragment
 import com.curling.kingdomofcurling.util.getCurrentDate
 import kotlinx.android.synthetic.main.fragment_check_booking.*
 
@@ -59,7 +60,7 @@ class CheckBookingFragment : Fragment() {
 
         parent.listener = object :MainActivityTitleListener {
             override fun pressedRightButton() {
-                //TODO WHAT?
+                parent.setCurrentPage(MyInfoFragment.getInstance(instance))
             }
 
             override fun pressedLeftButton() {

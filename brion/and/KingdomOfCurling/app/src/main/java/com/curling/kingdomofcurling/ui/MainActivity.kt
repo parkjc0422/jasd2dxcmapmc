@@ -52,7 +52,7 @@ class MainActivity : FragmentActivity() {
     }
 
     enum class TitleType {
-        Title, Image
+        Title, Image, MyPage, SubTitle
     }
 
     private var doubleBackToExitPressedOnce = false
@@ -108,16 +108,41 @@ class MainActivity : FragmentActivity() {
     public fun makeTitleInfo (type: TitleType) {
         when (type) {
             TitleType.Title-> {
+                textInfoTitleLayer.visibility = View.VISIBLE
                 title_main_image.visibility = View.GONE
                 title_main_textview.visibility = View.VISIBLE
                 main_title_left_button.visibility = View.VISIBLE
+                main_title_right_button.visibility = View.VISIBLE
+                title_main_textview_sub.visibility = View.GONE
                 main_top_layout.setBackgroundResource(R.color.top_title)
             }
             TitleType.Image -> {
+                textInfoTitleLayer.visibility = View.GONE
                 title_main_image.visibility = View.VISIBLE
                 title_main_textview.visibility = View.GONE
                 main_top_layout.setBackgroundResource(R.color.white)
                 main_title_left_button.visibility = View.INVISIBLE
+                main_title_right_button.visibility = View.VISIBLE
+                title_main_textview_sub.visibility = View.GONE
+            }
+            TitleType.MyPage -> {
+                textInfoTitleLayer.visibility = View.VISIBLE
+                title_main_textview_sub.visibility = View.GONE
+                title_main_image.visibility = View.GONE
+                title_main_textview.visibility = View.VISIBLE
+                main_title_left_button.visibility = View.VISIBLE
+                main_title_right_button.visibility = View.GONE
+                main_top_layout.setBackgroundResource(R.color.top_title)
+            }
+            TitleType.SubTitle -> {
+                textInfoTitleLayer.visibility = View.VISIBLE
+                title_main_textview_sub.visibility = View.VISIBLE
+                title_main_image.visibility = View.GONE
+                title_main_textview.visibility = View.VISIBLE
+                main_title_left_button.visibility = View.VISIBLE
+                main_title_right_button.visibility = View.GONE
+                main_top_layout.setBackgroundResource(R.color.top_title)
+
             }
         }
         if(type == TitleType.Image) {
@@ -128,6 +153,10 @@ class MainActivity : FragmentActivity() {
 
     public fun setMainTitle (title:String) {
         title_main_textview.text = title
+    }
+
+    fun setSubTitle(subTitle:String) {
+        title_main_textview_sub.text = subTitle
     }
 
     fun selectTab (index:Int) {

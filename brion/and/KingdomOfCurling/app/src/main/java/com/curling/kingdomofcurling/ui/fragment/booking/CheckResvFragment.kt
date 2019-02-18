@@ -15,6 +15,7 @@ import com.curling.kingdomofcurling.ui.MainActivity
 import com.curling.kingdomofcurling.ui.MainActivityTitleListener
 import com.curling.kingdomofcurling.ui.dialog.showDatePickerCurrent
 import com.curling.kingdomofcurling.ui.fragment.BookingFragment
+import com.curling.kingdomofcurling.ui.fragment.myinfo.MyInfoFragment
 import com.curling.kingdomofcurling.util.getCurrentDate
 import kotlinx.android.synthetic.main.fragment_check_resv.*
 
@@ -40,11 +41,16 @@ class CheckResvFragment : Fragment() {
 
         parent.listener = object : MainActivityTitleListener{
             override fun pressedRightButton() {
-                //TODO:WHAT?
+                parent.setCurrentPage(MyInfoFragment.getInstance(instance))
             }
 
             override fun pressedLeftButton() {
-                parent.setCurrentPage(BookingFragment.newInstance())
+                if(back != null) {
+                    parent.setCurrentPage(back as Fragment)
+                } else {
+                    parent.setCurrentPage(BookingFragment.newInstance())
+                }
+
             }
         }
 
@@ -103,6 +109,7 @@ class CheckResvFragment : Fragment() {
     }
 
     companion object {
+        var back: Fragment? = null
         var instance = CheckResvFragment()
     }
 

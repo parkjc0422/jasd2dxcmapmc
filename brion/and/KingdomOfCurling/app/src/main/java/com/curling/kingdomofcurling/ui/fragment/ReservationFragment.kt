@@ -14,6 +14,8 @@ import com.curling.kingdomofcurling.ui.dialog.showDatePickerCurrent
 import com.curling.kingdomofcurling.ui.dialog.showTimePickerCurrent
 import com.curling.kingdomofcurling.ui.MainActivity
 import com.curling.kingdomofcurling.ui.MainActivityTitleListener
+import com.curling.kingdomofcurling.ui.fragment.myinfo.MyInfoFragment
+import com.curling.kingdomofcurling.ui.fragment.travelinfo.DetailTravelInfoFragment
 
 
 class ReservationFragment : Fragment() {
@@ -139,7 +141,7 @@ class ReservationFragment : Fragment() {
 
         parent.listener = object :MainActivityTitleListener{
             override fun pressedRightButton() {
-                //TODO: nothing todo
+                parent.setCurrentPage(MyInfoFragment.getInstance(newInstance()))
             }
 
             override fun pressedLeftButton() {

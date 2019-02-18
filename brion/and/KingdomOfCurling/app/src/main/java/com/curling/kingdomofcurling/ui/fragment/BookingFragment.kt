@@ -8,8 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import com.curling.kingdomofcurling.R
 import com.curling.kingdomofcurling.ui.MainActivity
+import com.curling.kingdomofcurling.ui.MainActivityTitleListener
 import com.curling.kingdomofcurling.ui.fragment.booking.CheckBookingFragment
 import com.curling.kingdomofcurling.ui.fragment.booking.CheckResvFragment
+import com.curling.kingdomofcurling.ui.fragment.myinfo.MyInfoFragment
 import kotlinx.android.synthetic.main.fragment_booking.*
 
 
@@ -30,6 +32,7 @@ class BookingFragment : Fragment() {
         }
         booking_menu_2.setOnClickListener {
             val parent = activity as MainActivity
+            CheckResvFragment.back = newInstance()
             parent.setCurrentPage(CheckResvFragment.instance)
         }
         booking_menu_3.setOnClickListener {  }
@@ -41,6 +44,16 @@ class BookingFragment : Fragment() {
         val parent = activity as MainActivity
         parent.makeTitleInfo(MainActivity.TitleType.Title)
         parent.setMainTitle(resources.getString(R.string.curling_booking))
+
+        parent.listener = object :MainActivityTitleListener {
+            override fun pressedRightButton() {
+                parent.setCurrentPage(MyInfoFragment.getInstance(newInstance()))
+            }
+
+            override fun pressedLeftButton() {
+
+            }
+        }
 
     }
 

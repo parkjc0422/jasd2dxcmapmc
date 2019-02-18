@@ -12,6 +12,8 @@ import android.view.ViewGroup
 import com.curling.kingdomofcurling.R
 import com.curling.kingdomofcurling.ui.MainActivity
 import com.curling.kingdomofcurling.ui.MainActivityTitleListener
+import com.curling.kingdomofcurling.ui.fragment.myinfo.MyInfoFragment
+import com.curling.kingdomofcurling.ui.fragment.travelinfo.DetailTravelInfoFragment
 import kotlinx.android.synthetic.main.fragment_my_coupon.*
 
 
@@ -38,7 +40,7 @@ class MyCouponFragment : Fragment() {
         parent.makeTitleInfo(type = MainActivity.TitleType.Title)
         parent.listener = object : MainActivityTitleListener {
             override fun pressedRightButton() {
-                //TODO : ????
+                parent.setCurrentPage(MyInfoFragment.getInstance(DetailTravelInfoFragment.instance))
             }
 
             override fun pressedLeftButton() {

@@ -76,6 +76,23 @@
     <string name="login_find_password">비밀번호 찾기</string>
     <string name="login_email_invalid">* 가입되지 않은 사용자입니다.</string>
 
+    <string name="login_password_find">비밀번호 찾기</string>
+    <string name="login_password_find_desc">비밀번호가 기억나지 않으시나요?</string>
+    <string name="login_password_find_desc_detail">가입시 메일주소를 입력하시면 본인인증을 통해\n비밀번호를 새로 발급 할 수 있습니다.</string>
+    <string name="login_password_find_email">아이디(메일주소) 입력</string>
+    <string name="login_password_find_email_hint">메일주소 입력</string>
+    <string name="login_password_find_email_alert">* 기존에 가입된 회원이 아닙니다.</string>
+
+    <string name="login_reset_password">비밀번호 입력</string>
+    <string name="login_reset_auth_success">인증이 완료되었습니다.</string>
+    <string name="login_reset_auth_success1">신규 비밀번호</string>
+    <string name="login_reset_auth_success2">를 입력해주세요.</string>
+    <string name="reset_password">신규 비밀번호</string>
+    <string name="reset_password_hint">비밀번호 8자 이상 입력</string>
+    <string name="reset_password_hint2">비밀번호 재확인</string>
+    <string name="reset_password_alert">* 이미 가입된 메일주소 입니다.</string>
+
+
     <string name="coupon_menu_title">쿠폰샵</string>
     <string name="coupon_menu_1">음식점 및 카페</string>
     <string name="coupon_menu_2">기타 관광 상품</string>
@@ -124,8 +141,8 @@
     <string name="coupon_5000p">5000포인트 쿠폰</string>
     <string name="coupon_enable_string">사용가능</string>
     <string name="coupon_disable_string">사용완료</string>
-    
-    
+
+
     <string name="coupon_buy">구매하기</string>
     <string name="coupon_store_name">교환처</string>
     <string name="coupon_store_mdn">문의처</string>

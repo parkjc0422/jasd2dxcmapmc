@@ -44,6 +44,12 @@ class EmailLoginFragment : Fragment() {
             parent.finish()
         }
 
+        findPassword.setOnClickListener {
+            parent.setCurrentPage(FindPasswordFragment.newInstance())
+        }
+
+        parent.setPageTitle(resources.getString(R.string.login_email_title))
+
         parent.listener = object :EmailLoginActivity.LoginTitleListener {
             override fun didPressedBack() {
                 val parent = activity as EmailLoginActivity

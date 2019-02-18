@@ -37,9 +37,6 @@ class CameraViewActivity : AppCompatActivity() {
 
         // 안드로이드 6.0 이상 버전에서는 CAMERA 권한 허가를 요청한다.
         requestPermissionCamera()
-
-
-        cameraBack.setOnClickListener { finish() }
     }
 
     fun getCamera(): Camera? {
@@ -77,8 +74,7 @@ class CameraViewActivity : AppCompatActivity() {
             override fun onPreviewFail() {
             }
         }
-
-
+        cameraBack.setOnClickListener { finish() }
     }
 
 

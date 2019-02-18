@@ -24,6 +24,11 @@ class EmailLoginActivity : FragmentActivity() {
 
     }
 
+    fun setPageTitle(title:String) {
+        title_email_textview.text = title
+    }
+
+
     override fun onBackPressed() {
         listener?.didPressedBack()
     }

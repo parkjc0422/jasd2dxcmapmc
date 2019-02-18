@@ -170,6 +170,7 @@
         </LinearLayout>
     </LinearLayout>
     <Button
+        android:fontFamily="sans-serif"
         android:textColor="@color/white"
         android:background="@color/coupon_buy_button_color"
         android:text="@string/coupon_buy"

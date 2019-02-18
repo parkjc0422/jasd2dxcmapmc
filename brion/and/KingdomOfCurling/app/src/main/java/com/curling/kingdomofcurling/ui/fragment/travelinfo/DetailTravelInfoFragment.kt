@@ -14,6 +14,7 @@ import com.curling.kingdomofcurling.ui.fragment.TravelInfoFragment
 import kotlinx.android.synthetic.main.fragment_detail_travel_info.*
 import android.content.Intent
 import com.curling.kingdomofcurling.ui.camera.CameraViewActivity
+import com.curling.kingdomofcurling.ui.fragment.myinfo.MyInfoFragment
 import com.curling.kingdomofcurling.ui.map.CurlingMapActivity
 
 
@@ -91,7 +92,7 @@ class DetailTravelInfoFragment : Fragment() {
         parent.setMainTitle(item.title as String)
         parent.listener = object : MainActivityTitleListener{
             override fun pressedRightButton() {
-
+                parent.setCurrentPage(MyInfoFragment.getInstance(instance))
             }
 
             override fun pressedLeftButton() {

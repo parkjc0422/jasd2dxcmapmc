@@ -10,7 +10,9 @@ import android.view.ViewGroup
 
 import com.curling.kingdomofcurling.R
 import com.curling.kingdomofcurling.ui.MainActivity
+import com.curling.kingdomofcurling.ui.MainActivityTitleListener
 import com.curling.kingdomofcurling.ui.coupon.CouponDetailActivity
+import com.curling.kingdomofcurling.ui.fragment.myinfo.MyInfoFragment
 import kotlinx.android.synthetic.main.fragment_coupon.*
 
 /**
@@ -24,13 +26,22 @@ class CouponFragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_coupon, container, false)
     }
-
+    lateinit var parent: MainActivity
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-        val parent = activity as MainActivity
+        parent = activity as MainActivity
         parent.setMainTitle(resources.getString(R.string.coupon_menu_title))
+        parent.makeTitleInfo(MainActivity.TitleType.Title)
+        parent.listener = object :MainActivityTitleListener {
+            override fun pressedRightButton() {
+                parent.setCurrentPage(MyInfoFragment.getInstance(instance))
+            }
 
+            override fun pressedLeftButton() {
+
+            }
+        }
         initAction()
     }
 

@@ -27,20 +27,41 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content" />
         <ImageView
+            android:visibility="gone"
             android:id="@+id/title_main_image"
             android:background="@drawable/img_title_logo"
             android:layout_width="76dp"
             android:layout_height="32dp" />
-        <TextView
-            android:fontFamily="sans-serif"
-            android:visibility="gone"
-            android:id="@+id/title_main_textview"
-            android:textColor="@color/white"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            android:text="asd"
+
+        <LinearLayout
+            android:gravity="center"
+            android:id="@+id/textInfoTitleLayer"
+            android:orientation="vertical"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="match_parent">
+
+            <TextView
+                android:fontFamily="sans-serif"
+                android:visibility="gone"
+                android:id="@+id/title_main_textview"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="asd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:fontFamily="sans-serif"
+                android:visibility="gone"
+                android:id="@+id/title_main_textview_sub"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:text="asd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
         <Space
             android:layout_weight="1"
             android:layout_width="0dp"

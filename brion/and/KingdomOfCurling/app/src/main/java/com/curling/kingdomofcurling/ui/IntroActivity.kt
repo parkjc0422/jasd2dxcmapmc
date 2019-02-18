@@ -63,7 +63,7 @@ class IntroActivity : FragmentActivity() {
         timer?.cancel()
     }
 
-    var remainTick: Int = 4
+    var remainTick: Int = 9
 
     private var timer:Timer? = null
     fun startLoginTimer () {

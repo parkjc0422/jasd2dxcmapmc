@@ -66,4 +66,7 @@
     <color name="coupon_store_info_tag_color">#a5abb2</color>
     <color name="coupon_store_info_color">#3d4246</color>
 
+    <color name="find_password_normal">#2f4690</color>
+    <color name="find_password_foc">#27a548</color>
+
 </resources>

@@ -15,6 +15,7 @@ import android.widget.AdapterView
 import com.curling.kingdomofcurling.R
 import com.curling.kingdomofcurling.ui.MainActivity
 import com.curling.kingdomofcurling.ui.MainActivityTitleListener
+import com.curling.kingdomofcurling.ui.fragment.myinfo.MyInfoFragment
 import com.curling.kingdomofcurling.ui.fragment.travelinfo.DetailTravelInfoFragment
 import com.curling.kingdomofcurling.ui.fragment.travelinfo.TravelInfoAdapter
 import kotlinx.android.synthetic.main.fragment_travel_info.*
@@ -46,7 +47,7 @@ class TravelInfoFragment : Fragment() {
 
         parent.listener = object :MainActivityTitleListener {
             override fun pressedRightButton() {
-                //TODO : what todo?
+                parent.setCurrentPage(MyInfoFragment.getInstance(instance))
             }
 
             override fun pressedLeftButton() {

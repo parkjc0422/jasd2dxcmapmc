@@ -7,12 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.camera.CameraViewActivity">
 
-    <Button
-        android:id="@+id/cameraBack"
-        android:layout_margin="10dp"
-        android:background="@drawable/btn_title_back"
-        android:layout_width="20dp"
-        android:layout_height="20dp" />
+
 
     <com.curling.kingdomofcurling.ui.camera.CameraPreview
         android:id="@+id/preview"
@@ -41,4 +36,22 @@
             android:layout_height="40dp" />
     </RelativeLayout>
 
+
+    <Button
+        android:id="@+id/cameraBack"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_title_back"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+
+    <ImageView
+        android:rotation="30"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/img_title_logo"
+        android:alpha="0.5"
+        android:layout_width="70dp"
+        android:layout_height="40dp" />
 </RelativeLayout>
