@@ -52,7 +52,7 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.MainActivity"></activity>
+        <activity android:name=".ui.MainActivity" />
         <activity android:name=".ui.camera.CameraViewActivity" />
         <activity android:name=".ui.IntroActivity">
             <intent-filter>
@@ -65,7 +65,8 @@
         <activity android:name=".ui.EmailLoginActivity" />
         <activity android:name=".ui.game.CurlingGameActivity" />
         <activity android:name=".ui.join.JoinActivity" />
-        <activity android:name=".ui.coupon.CouponDetailActivity"/>
+        <activity android:name=".ui.coupon.CouponDetailActivity" />
+        <activity android:name=".ui.MyInfoEditActivity"></activity>
     </application>
 
 </manifest>

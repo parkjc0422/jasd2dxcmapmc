@@ -1,5 +1,6 @@
 package com.curling.kingdomofcurling.ui.fragment.myinfo
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.widget.DividerItemDecoration
@@ -9,6 +10,7 @@ import android.view.ViewGroup
 import com.curling.kingdomofcurling.R
 import com.curling.kingdomofcurling.ui.MainActivity
 import com.curling.kingdomofcurling.ui.MainActivityTitleListener
+import com.curling.kingdomofcurling.ui.MyInfoEditActivity
 import com.curling.kingdomofcurling.ui.fragment.BookingFragment
 import com.curling.kingdomofcurling.ui.fragment.booking.CheckResvFragment
 import com.curling.kingdomofcurling.ui.fragment.coupon.MyCouponFragment
@@ -55,7 +57,7 @@ class MyInfoFragment: Fragment() {
                     parent.setCurrentPage(MyPointUsageFragment.instance)
                 },
                 MyInfoAdapter.MyInfoItem("회원정보 변경") {
-
+                    parent.startActivity(Intent(parent, MyInfoEditActivity::class.java))
                 }
         )
 

@@ -125,6 +125,13 @@
     <string name="sms_auth_num_hint">인증번호 (10분 동안 유효)</string>
     <string name="invail_sms_num">* 잘못된 인증번호 입니다.</string>
     <string name="sms_auth_next">다음</string>
+    <string name="my_info_edit_sms_auth_next">다음</string>
+    <string name="my_info_edit_complete">완료</string>
+    <string name="my_info_edit">변경</string>
+    <string name="my_info_pw_edit_invaild_password">* 기존 비밀번호를 확인해 주시기 바랍니다.</string>
+    <string name="my_info_pw_edit_hint">비밀번호 입력</string>
+    <string name="my_info_pw_edit__hint2">비밀번호 확인</string>
+    <string name="my_info_pw_edit_new_pw">신규 비밀번호</string>
 
 
     <string name="user_info_id">아이디(메일주소)</string>

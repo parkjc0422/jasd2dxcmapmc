@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MyInfoEditActivity">
+    <LinearLayout
+        android:id="@+id/main_top_layout"
+        android:gravity="center_vertical"
+        android:background="@color/top_title"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="63dp">
+
+        <ImageButton
+            android:id="@+id/my_info_edit_back"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/btn_title_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+        <Space
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:fontFamily="sans-serif"
+            android:id="@+id/my_info_edit_title"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="asd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <Space
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:background="@null"
+            android:id="@+id/main_title_right_button"
+            android:layout_marginRight="20dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+    </LinearLayout>
+    <android.support.design.widget.TabLayout
+
+        app:tabIndicatorColor="@color/top_title"
+        app:tabSelectedTextColor="@color/top_title"
+        android:id="@+id/my_info_edit_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/myInfoView"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+</LinearLayout>
